@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>selnium_core_full_automation</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!-- PLUGINS -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven_compiler_plugin.version}</version>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${maven_surefire_plugin.version}</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <!--                        <suiteXmlFiles>.testngSingle.xml</suiteXmlFiles>-->
+                        <suiteXmlFiles>testngSuite.xml</suiteXmlFiles>
+                        <!--                        <suiteXmlFiles>zaleniumtest.xml</suiteXmlFiles>-->
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <!-- PLUGINS -->
+
+    <!-- PROPERTIES -->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!--        <maven.test.skip>true</maven.test.skip> -->
+        <!--        for skipping are tests just build the build: (mvn package -Dmaven.test.skip=true)     -->
+        <selenium.version>3.141.59</selenium.version>
+        <testng.version>6.14.3</testng.version>
+        <loger.version>1.2.17</loger.version>
+        <apache_poi.version>3.17</apache_poi.version>
+        <apache_poi_oxml.version>3.17</apache_poi_oxml.version>
+        <extentreport.version>3.1.2</extentreport.version>
+        <maven_compiler_plugin.version>3.8.1</maven_compiler_plugin.version>
+        <mysql-connector-java.version>8.0.17</mysql-connector-java.version>
+        <webdrivermanager.version>3.6.1</webdrivermanager.version>
+        <selenium-server.version>3.141.59</selenium-server.version>
+        <maven_surefire_plugin.version>3.0.0-M3</maven_surefire_plugin.version>
+    </properties>
+    <!-- PROPERTIES -->
+
+    <!-- DEPENDENCIES -->
+    <dependencies>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>${loger.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>${apache_poi.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>${apache_poi_oxml.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>${extentreport.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-resources-plugin</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql-connector-java.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>${webdrivermanager.version}</version>
+        </dependency>
+
+    </dependencies>
+    <!-- DEPENDENCIES -->
+</project>
