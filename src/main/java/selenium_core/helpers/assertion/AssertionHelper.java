@@ -84,8 +84,8 @@ public class AssertionHelper
         }
         else
         {
-            log.info("Test status fail" );
             fail();
+            log.info("Test status fail" );
         }
     }
     //----------------------------------------------------------------------------------------------------------------||

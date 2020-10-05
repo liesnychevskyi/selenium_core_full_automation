@@ -1,2 +1,6 @@
 10-05-2020 07:54:53 :: [selenium_core.helpers.logger.MyLogger - main][INFO ] - Configured
 10-05-2020 07:54:53 :: [selenium_core.helpers.logger.MyLogger - main][ERROR] - Error
+10-05-2020 10:13:02 :: [selenium_core.helpers.database.DatabaseHelper - getSingleInstanceConnection][ERROR] - Failed to create Person Base connection..java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
+10-05-2020 10:13:02 :: [selenium_core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
+10-05-2020 10:23:00 :: [selenium_core.helpers.database.DatabaseHelper - getSingleInstanceConnection][ERROR] - Failed to create Person Base connection..java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+10-05-2020 10:23:00 :: [selenium_core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
