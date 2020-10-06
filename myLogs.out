@@ -4,3 +4,24 @@
 10-05-2020 10:13:02 :: [selenium_core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
 10-05-2020 10:23:00 :: [selenium_core.helpers.database.DatabaseHelper - getSingleInstanceConnection][ERROR] - Failed to create Person Base connection..java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
 10-05-2020 10:23:00 :: [selenium_core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
+10-06-2020 10:00:10 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test loginTest with status: FAILURE for the: 1 times.
+10-06-2020 10:00:10 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test loginTest with status: FAILURE for the: 2 times.
+10-06-2020 10:00:10 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test loginTest with status: FAILURE for the: 3 times.
+10-06-2020 10:00:10 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test loginTest with status: FAILURE for the: 1 times.
+10-06-2020 10:00:10 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test loginTest with status: FAILURE for the: 2 times.
+10-06-2020 10:00:10 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test loginTest with status: FAILURE for the: 3 times.
+10-06-2020 10:01:24 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test loginTest with status: FAILURE for the: 1 times.
+10-06-2020 10:01:24 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test loginTest with status: FAILURE for the: 2 times.
+10-06-2020 10:01:24 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test loginTest with status: FAILURE for the: 3 times.
+10-06-2020 10:01:24 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test loginTest with status: FAILURE for the: 1 times.
+10-06-2020 10:01:24 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test loginTest with status: FAILURE for the: 2 times.
+10-06-2020 10:01:24 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test loginTest with status: FAILURE for the: 3 times.
+10-06-2020 10:17:18 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test enterTest with status: FAILURE for the: 1 times.
+10-06-2020 10:17:18 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test ClickTest with status: FAILURE for the: 1 times.
+10-06-2020 10:17:18 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test ClickTest with status: FAILURE for the: 2 times.
+10-06-2020 10:19:55 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test ClickTest with status: FAILURE for the: 1 times.
+10-06-2020 10:19:55 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test ClickTest with status: FAILURE for the: 2 times.
+10-06-2020 10:20:34 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test ClickTest with status: FAILURE for the: 1 times.
+10-06-2020 10:20:34 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test ClickTest with status: FAILURE for the: 2 times.
+10-06-2020 10:22:24 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test ClickTest with status: FAILURE for the: 1 times.
+10-06-2020 10:22:24 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test ClickTest with status: FAILURE for the: 2 times.

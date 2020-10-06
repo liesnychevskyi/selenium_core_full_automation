@@ -13,6 +13,7 @@ public class VerificationHelper
     //----------------------------------------------------------------------------------------------------------------||
     public VerificationHelper(WebDriver driver)
     {
+        log.info("VerificationHelper constructor is initialized..");
         this.driver = driver;
     }
     //----------------------------------------------------------------------------------------------------------------||
@@ -36,7 +37,7 @@ public class VerificationHelper
         try
         {
             element.isDisplayed();
-            log.info("Element is displayed >>> " + element.getText());
+            log.info(" Error :: Element is displayed >>> " + element.getText());
             return false;
         }
         catch (Exception e)
@@ -65,4 +66,5 @@ public class VerificationHelper
         }
     }
     //----------------------------------------------------------------------------------------------------------------||
+
 }

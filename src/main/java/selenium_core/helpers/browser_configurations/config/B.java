@@ -17,6 +17,7 @@ public class B implements A
     {
         A obj = new B();
         obj.test1();
+        System.out.println("G");
         obj.test2();
 
         C.reader = new B();

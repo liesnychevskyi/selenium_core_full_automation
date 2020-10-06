@@ -14,23 +14,22 @@ public class WindowHelper
     //----------------------------------------------------------------------------------------------------------------||
     public WindowHelper(WebDriver driver)
     {
+        log.info("WindowHelper constructor is created");
         this.driver = driver;
     }
     //----------------------------------------------------------------------------------------------------------------||
     /**
      * This method will switch to parent window
      */
-    //----------------------------------------------------------------------------------------------------------------||
     public void switchToParentWindow()
     {
         log.info("Switch to parent window...");
         driver.switchTo().defaultContent();
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     /**
      * This method will switch to child window based on index
      */
-    //----------------------------------------------------------------------------------------------------------------||
     public void switchToWindow(int index)
     {
         log.info("Switch to parent window...");
@@ -49,10 +48,10 @@ public class WindowHelper
             }
         }
     }
+    //----------------------------------------------------------------------------------------------------------------||
     /**
      * This method will close all tabbed windows and switch to main window
      */
-    //----------------------------------------------------------------------------------------------------------------||
     public void closeAllTabsSwitchToMainWindow()
     {
         Set<String> windows = driver.getWindowHandles();
@@ -80,8 +79,6 @@ public class WindowHelper
     /**
      * This method will do step forward
      */
-    //---------------------------------------------------------------------------------------------------------------||
-
     public void navigateForward()
     {
         driver.navigate().forward();
