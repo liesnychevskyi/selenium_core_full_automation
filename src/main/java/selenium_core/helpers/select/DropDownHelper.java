@@ -9,7 +9,7 @@ import selenium_core.helpers.logger.MyLogger;
 import java.util.LinkedList;
 import java.util.List;
 
-public class DropDownHelper
+public class DropDownHelper // Handler of select boxes
 {
     //----------------------------------------------------------------------------------------------------------------||
     private WebDriver driver;
@@ -24,47 +24,48 @@ public class DropDownHelper
     public void selectUsingValue(WebElement element, String value)
     {
         Select select = new Select(element);
-        log.info("selectUsingValue and value is: " + value);
+        log.info("SelectUsingValue method is started and value is: " + value);
         select.selectByValue(value);
     }
     //----------------------------------------------------------------------------------------------------------------||
     public void selectUsingIndex(WebElement element, int index)
     {
         Select select = new Select(element);
-        log.info("selectUsingIndex and index is: " + index);
+        log.info("SelectUsingIndex is started and index is: " + index);
         select.selectByIndex(index);
     }
     //----------------------------------------------------------------------------------------------------------------||
     public void selectUsingVisibleText(WebElement element, String visibleText)
     {
         Select select = new Select(element);
-        log.info("selectUsingVisibleText and visibleText is: " + visibleText);
+        log.info("SelectUsingVisibleText method is started and visibleText is: " + visibleText);
         select.selectByValue(visibleText);
     }
     //----------------------------------------------------------------------------------------------------------------||
     public void deSelectUsingValue(WebElement element, String value)
     {
         Select select = new Select(element);
-        log.info("deSelectUsingValue and value is: " + value);
+        log.info("DeSelectUsingValue method is started and value is: " + value);
         select.deselectByValue(value);
     }
     //----------------------------------------------------------------------------------------------------------------||
     public void deSelectUsingIndex(WebElement element, int index)
     {
         Select select = new Select(element);
-        log.info("deSelectUsingIndex and index is: " + index);
+        log.info("DeSelectUsingIndex method is started and index is: " + index);
         select.deselectByIndex(index);
     }
     //----------------------------------------------------------------------------------------------------------------||
     public void deSelectUsingVisibleText(WebElement element, String text)
     {
         Select select = new Select(element);
-        log.info("deSelectUsingVisibleText and text is: " + text);
+        log.info("DeSelectUsingVisibleText method is started and text is: " + text);
         select.deselectByVisibleText(text);
     }
     //----------------------------------------------------------------------------------------------------------------||
     public List<String> getAllDropDownData(WebElement element)
     {
+        log.info("GetAllDropDownData method is started..");
         Select select = new Select(element);
         List<WebElement> elementList = select.getOptions();
         List<String> valueList = new LinkedList<String>();

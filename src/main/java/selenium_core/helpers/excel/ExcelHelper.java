@@ -28,15 +28,20 @@ public class ExcelHelper
             //Create workbook instance
             XSSFWorkbook workbook = new XSSFWorkbook(file);
             //Get sheet name from Workbook
+            //////////////////////////////////////////////
             XSSFSheet sheet = workbook.getSheet(sheetName);
             //Count number of active rows in excel sheet
+            //////////////////////////////////////////////
             int totalRow = sheet.getLastRowNum();
             System.out.println("Total row is: " + totalRow);
             //Count active columns in row
+            //////////////////////////////////////////////
             int totalColumn = sheet.getRow(0).getLastCellNum();
             System.out.println("Total column is: " + totalColumn);
+            //////////////////////////////////////////////
             dataSets = new Object[totalRow+1][totalColumn];
             //Iterate through each Row one by one
+            //////////////////////////////////////////////
             Iterator<Row> rowIterator = sheet.iterator();
             int i = 0;
             while (rowIterator.hasNext())
@@ -65,11 +70,9 @@ public class ExcelHelper
                         case FORMULA:
                             dataSets[i-1][j-1] = cell.getCellFormula();
                             break;
-
                         default:
                             System.out.println("No matching DATA TYPE FOUND..");
                             break;
-
                     }
                 }
             }
@@ -117,26 +120,24 @@ public class ExcelHelper
         }
     }
     //----------------------------------------------------------------------------------------------------------------||
-    //----------------------------------------------------------------------------------------------------------------||
+    public static void main(String[] args)
+    {
+        ExcelHelper excelHelper = new ExcelHelper();
+        String excelLocation = ResourceHelper.getRecoursePath("/src/main/java/selenium_core/execel_sheets_data/selenium_test_data.xlsx");
+        Object[][] data = excelHelper.getExcelData(excelLocation, "data");
+        for(Object obj: data)
+        {
+            System.out.println(obj);
+        }
+    }
     //----------------------------------------------------------------------------------------------------------------||
 //    public static void main(String[] args)
 //    {
-//        ExcelHelper excelHelper = new ExcelHelper();
-//        String excelLocation = ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\sheets_excel\\Selenium_test_data.xlsx");
-//        Object[][] data = excelHelper.getExcelData(excelLocation, "test");
-//        for(Object obj: data)
-//        {
-//            System.out.println(obj);
-//        }
+//        selenium_core.helpers.excel.ExcelHelper excelHelper = new selenium_core.helpers.excel.ExcelHelper();
+//        String excelLocation = ResourceHelper.getRecoursePath("\\src\\main\\java\\selenium_core\\execel_sheets_data\\selenium_test_data.xlsx");
+//        //excelHelper.updateResult(excelLocation, "TestScripts", "Login", "PASS");
+//        //excelHelper.updateResult(excelLocation, "TestScripts", "Registration", "FAIL");
+//        //excelHelper.updateResult(excelLocation, "TestScripts", "Add to cart", "PASS");
 //    }
-    //----------------------------------------------------------------------------------------------------------------||
-    public static void main(String[] args)
-    {
-        selenium_core.helpers.excel.ExcelHelper excelHelper = new selenium_core.helpers.excel.ExcelHelper();
-        String excelLocation = ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\sheets_excel\\Selenium_test_data.xlsx");
-        excelHelper.updateResult(excelLocation, "TestScripts", "Login", "PASS");
-        excelHelper.updateResult(excelLocation, "TestScripts", "Registration", "FAIL");
-        excelHelper.updateResult(excelLocation, "TestScripts", "Add to cart", "PASS");
-    }
     //----------------------------------------------------------------------------------------------------------------||
 }
