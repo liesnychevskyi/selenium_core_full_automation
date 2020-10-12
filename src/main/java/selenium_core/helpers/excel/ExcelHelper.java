@@ -27,18 +27,14 @@ public class ExcelHelper
             FileInputStream file = new FileInputStream(new File(excelLocation));
             //Create workbook instance
             XSSFWorkbook workbook = new XSSFWorkbook(file);
-            //Get sheet name from Workbook
-            //////////////////////////////////////////////
             XSSFSheet sheet = workbook.getSheet(sheetName);
-            //Count number of active rows in excel sheet
-            //////////////////////////////////////////////
+
             int totalRow = sheet.getLastRowNum();
             System.out.println("Total row is: " + totalRow);
-            //Count active columns in row
-            //////////////////////////////////////////////
+
             int totalColumn = sheet.getRow(0).getLastCellNum();
             System.out.println("Total column is: " + totalColumn);
-            //////////////////////////////////////////////
+
             dataSets = new Object[totalRow+1][totalColumn];
             //Iterate through each Row one by one
             //////////////////////////////////////////////
@@ -100,8 +96,8 @@ public class ExcelHelper
 
             for(int i = 1; i < totalRow; i++)
             {
-                XSSFRow row = sheet.getRow(i); // we get row from the sheet and keep it in variable
-                String cellData = row.getCell(0).getStringCellValue(); // we get data from the row
+                XSSFRow row = sheet.getRow(i); // we get row from the sheet and keep it in a variable
+                String cellData = row.getCell(0).getStringCellValue(); // we get data from the cell
                 if(cellData.contains(testCaseName))
                 {
                     row.createCell(1).setCellValue(testStatus); // we create cell and write into the the cell data
@@ -123,7 +119,7 @@ public class ExcelHelper
     public static void main(String[] args)
     {
         ExcelHelper excelHelper = new ExcelHelper();
-        String excelLocation = ResourceHelper.getRecoursePath("/src/main/java/selenium_core/execel_sheets_data/selenium_test_data.xlsx");
+        String excelLocation = ResourceHelper.getRecoursePath("/src/main/java/selenium_core/excel_sheets_data/selenium_test_data.xlsx");
         Object[][] data = excelHelper.getExcelData(excelLocation, "data");
         for(Object obj: data)
         {
@@ -134,7 +130,7 @@ public class ExcelHelper
 //    public static void main(String[] args)
 //    {
 //        selenium_core.helpers.excel.ExcelHelper excelHelper = new selenium_core.helpers.excel.ExcelHelper();
-//        String excelLocation = ResourceHelper.getRecoursePath("\\src\\main\\java\\selenium_core\\execel_sheets_data\\selenium_test_data.xlsx");
+//        String excelLocation = ResourceHelper.getRecoursePath("\\src\\main\\java\\selenium_core\\excel_sheets_data\\selenium_test_data.xlsx");
 //        //excelHelper.updateResult(excelLocation, "TestScripts", "Login", "PASS");
 //        //excelHelper.updateResult(excelLocation, "TestScripts", "Registration", "FAIL");
 //        //excelHelper.updateResult(excelLocation, "TestScripts", "Add to cart", "PASS");
