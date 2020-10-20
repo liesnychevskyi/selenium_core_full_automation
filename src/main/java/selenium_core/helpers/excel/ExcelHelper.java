@@ -28,16 +28,16 @@ public class ExcelHelper
             //Create workbook instance
             XSSFWorkbook workbook = new XSSFWorkbook(file);
             XSSFSheet sheet = workbook.getSheet(sheetName);
-
+            // Count active rows in the sheet
             int totalRow = sheet.getLastRowNum();
             System.out.println("Total row is: " + totalRow);
-
+            // Count active columns in the sheet
             int totalColumn = sheet.getRow(0).getLastCellNum();
             System.out.println("Total column is: " + totalColumn);
-
-            dataSets = new Object[totalRow+1][totalColumn];
+            //--------------------------------------------------------------------------------------------------------||
+            dataSets = new Object[totalRow+1][totalColumn]; ////////////////////////////////////////////////////////////
+            //--------------------------------------------------------------------------------------------------------||
             //Iterate through each Row one by one
-            //////////////////////////////////////////////
             Iterator<Row> rowIterator = sheet.iterator();
             int i = 0;
             while (rowIterator.hasNext())
@@ -116,24 +116,24 @@ public class ExcelHelper
         }
     }
     //----------------------------------------------------------------------------------------------------------------||
-    public static void main(String[] args)
-    {
-        ExcelHelper excelHelper = new ExcelHelper();
-        String excelLocation = ResourceHelper.getRecoursePath("/src/main/java/selenium_core/excel_sheets_data/selenium_test_data.xlsx");
-        Object[][] data = excelHelper.getExcelData(excelLocation, "data");
-        for(Object obj: data)
-        {
-            System.out.println(obj);
-        }
-    }
-    //----------------------------------------------------------------------------------------------------------------||
 //    public static void main(String[] args)
 //    {
-//        selenium_core.helpers.excel.ExcelHelper excelHelper = new selenium_core.helpers.excel.ExcelHelper();
-//        String excelLocation = ResourceHelper.getRecoursePath("\\src\\main\\java\\selenium_core\\excel_sheets_data\\selenium_test_data.xlsx");
-//        //excelHelper.updateResult(excelLocation, "TestScripts", "Login", "PASS");
-//        //excelHelper.updateResult(excelLocation, "TestScripts", "Registration", "FAIL");
-//        //excelHelper.updateResult(excelLocation, "TestScripts", "Add to cart", "PASS");
+//        ExcelHelper excelHelper = new ExcelHelper();
+//        String excelLocation = ResourceHelper.getRecoursePath("/src/main/java/selenium_core/excel_sheets_data/selenium_test_data.xlsx");
+//        Object[][] data = excelHelper.getExcelData(excelLocation, "data");
+//        for(Object obj: data)
+//        {
+//            System.out.println(obj);
+//        }
 //    }
+    //----------------------------------------------------------------------------------------------------------------||
+    public static void main(String[] args)
+    {
+        selenium_core.helpers.excel.ExcelHelper excelHelper = new selenium_core.helpers.excel.ExcelHelper();
+        String excelLocation = ResourceHelper.getRecoursePath("/src/main/java/selenium_core/excel_sheets_data/selenium_test_data.xlsx");
+        excelHelper.updateResult(excelLocation, "TestControl", "Login", "PASS");
+        excelHelper.updateResult(excelLocation, "TestControl", "Logout", "FAILED");
+        excelHelper.updateResult(excelLocation, "TestControl", "Signin", "SKIP");
+    }
     //----------------------------------------------------------------------------------------------------------------||
 }

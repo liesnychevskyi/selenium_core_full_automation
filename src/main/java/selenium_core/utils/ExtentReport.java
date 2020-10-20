@@ -16,7 +16,7 @@ public class ExtentReport
     {
         System.out.println("Login to Amazon");
 
-        ExtentHtmlReporter reporter = new ExtentHtmlReporter("test-output/extent_mukesh.html");
+        ExtentHtmlReporter reporter = new ExtentHtmlReporter("test_output/extent_report.html");
 
         ExtentReports extent = new ExtentReports();
 

@@ -22,7 +22,9 @@ public class FirefoxBrowser
         firefox.setCapability("marionette", true);
 
         FirefoxOptions firefoxOptions  = new FirefoxOptions(firefox);
-        //Linux
+    //Linux
+    //----------------------------------------------------------------------------------------------------------------||
+
         if(System.getProperty("os.name").contains("Linux"))
         {
             firefoxOptions.addArguments("--headless", "windows-size=1024,768", "--no-sandbox");

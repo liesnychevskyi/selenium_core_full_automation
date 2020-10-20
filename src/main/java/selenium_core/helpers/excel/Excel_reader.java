@@ -19,7 +19,7 @@ public class Excel_reader
         XSSFSheet sheet = workbook.getSheet(sheetName);
         // Sheet count
         //------------------------------------------------------------------------------------------------------------||
-        int rowCount = sheet.getLastRowNum()+1; // Row count +1 [it is started from 0]
+        int rowCount = sheet.getLastRowNum()+1; // Row count +1 [it is started from 1]
         System.out.println("Row count: " + rowCount);
         int columnCount = sheet.getRow(0).getLastCellNum(); // Column count
         System.out.println("Column count: " + columnCount);

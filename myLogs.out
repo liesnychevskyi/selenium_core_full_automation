@@ -25,3 +25,224 @@
 10-06-2020 10:20:34 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test ClickTest with status: FAILURE for the: 2 times.
 10-06-2020 10:22:24 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test ClickTest with status: FAILURE for the: 1 times.
 10-06-2020 10:22:24 :: [selenium_core.helpers.listener.Retry - retry][INFO ] - Retrying test ClickTest with status: FAILURE for the: 2 times.
+10-20-2020 08:46:25 :: [selenium_core.helpers.excel.ExcelHelper - updateResult][INFO ] - Result updated..
+10-20-2020 08:56:25 :: [selenium_core.helpers.excel.ExcelHelper - updateResult][INFO ] - Result updated..
+10-20-2020 08:58:43 :: [selenium_core.helpers.excel.ExcelHelper - updateResult][INFO ] - Result updated..
+10-20-2020 08:58:43 :: [selenium_core.helpers.excel.ExcelHelper - updateResult][INFO ] - Result updated..
+10-20-2020 08:58:43 :: [selenium_core.helpers.excel.ExcelHelper - updateResult][INFO ] - Result updated..
+10-20-2020 09:01:25 :: [selenium_core.helpers.excel.ExcelHelper - updateResult][INFO ] - Result updated..
+10-20-2020 09:01:25 :: [selenium_core.helpers.excel.ExcelHelper - updateResult][INFO ] - Result updated..
+10-20-2020 09:01:26 :: [selenium_core.helpers.excel.ExcelHelper - updateResult][INFO ] - Result updated..
+10-20-2020 09:46:05 :: [selenium_core.test_base.TestBase - getBrowserObject][INFO ] - The driver executable does not exist: /Users/stanislav/IdeaProjects/selnium_core_full_automation/src/main/java/core/drivers/chromedriver
+10-20-2020 09:48:20 :: [selenium_core.test_base.TestBase - getBrowserObject][INFO ] - session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Stanislavs-MacBook-Pro.local', ip: 'fe80:0:0:0:1c16:9c43:ab71:2991%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000107ebaf09 chromedriver + 3694345
+1   chromedriver                        0x0000000107e47fd3 chromedriver + 3223507
+2   chromedriver                        0x0000000107be758f chromedriver + 730511
+3   chromedriver                        0x0000000107b4d10b chromedriver + 98571
+4   chromedriver                        0x0000000107b4922a chromedriver + 82474
+5   chromedriver                        0x0000000107b76b71 chromedriver + 269169
+6   chromedriver                        0x0000000107b73e83 chromedriver + 257667
+7   chromedriver                        0x0000000107b4f23d chromedriver + 107069
+8   chromedriver                        0x0000000107b501d5 chromedriver + 111061
+9   chromedriver                        0x0000000107e7607f chromedriver + 3412095
+10  chromedriver                        0x0000000107e82ced chromedriver + 3464429
+11  chromedriver                        0x0000000107e82a78 chromedriver + 3463800
+12  chromedriver                        0x0000000107e55959 chromedriver + 3279193
+13  chromedriver                        0x0000000107e83548 chromedriver + 3466568
+14  chromedriver                        0x0000000107e6a1b7 chromedriver + 3363255
+15  chromedriver                        0x0000000107ea1474 chromedriver + 3589236
+16  chromedriver                        0x0000000107ec0ce7 chromedriver + 3718375
+17  libsystem_pthread.dylib             0x00007fff734e6109 _pthread_start + 148
+18  libsystem_pthread.dylib             0x00007fff734e1b8b thread_start + 15
+
+10-20-2020 09:52:49 :: [selenium_core.test_base.TestBase - getBrowserObject][INFO ] - Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Stanislavs-MacBook-Pro.local', ip: 'fe80:0:0:0:1c16:9c43:ab71:2991%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+10-20-2020 09:53:13 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1263668904
+10-20-2020 09:53:13 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-20-2020 09:53:13 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-20-2020 09:53:13 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-20-2020 09:53:13 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-20-2020 09:53:14 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-20-2020 09:53:14 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 10:00:14 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 159290353
+10-20-2020 10:00:14 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-20-2020 10:00:14 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-20-2020 10:00:14 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-20-2020 10:00:14 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-20-2020 10:00:14 :: [selenium_core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-20-2020 10:00:15 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-20-2020 10:00:15 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 10:00:15 :: [selenium_core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-20-2020 10:00:15 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-20-2020 10:00:15 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Report: failed  ******************************************************* >>>
+10-20-2020 10:03:11 :: [selenium_core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-20-2020 10:03:11 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:03:11 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Report: failed  ******************************************************* >>>
+10-20-2020 10:03:42 :: [selenium_core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-20-2020 10:03:42 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:03:42 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Report: failed  ******************************************************* >>>
+10-20-2020 10:03:53 :: [selenium_core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-20-2020 10:03:53 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:03:53 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 10:03:53 :: [selenium_core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-20-2020 10:03:53 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:03:53 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Report: failed  ******************************************************* >>>
+10-20-2020 10:10:00 :: [selenium_core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-20-2020 10:10:00 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:10:00 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 10:15:59 :: [selenium_core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-20-2020 10:15:59 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:15:59 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Report: failed  ******************************************************* >>>
+10-20-2020 10:16:45 :: [selenium_core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-20-2020 10:16:45 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:16:45 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 10:16:45 :: [selenium_core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-20-2020 10:16:45 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:16:45 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Report: failed  ******************************************************* >>>
+10-20-2020 10:17:43 :: [selenium_core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-20-2020 10:17:43 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:17:43 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 10:17:43 :: [selenium_core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-20-2020 10:17:43 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:17:43 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Report: failed  ******************************************************* >>>
+10-20-2020 10:19:24 :: [selenium_core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-20-2020 10:19:24 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:19:24 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 10:19:25 :: [selenium_core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-20-2020 10:19:25 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:19:25 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Report: failed  ******************************************************* >>>
+10-20-2020 10:26:30 :: [selenium_core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-20-2020 10:26:30 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:26:30 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 10:26:30 :: [selenium_core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-20-2020 10:26:30 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:26:30 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Report: failed  ******************************************************* >>>
+10-20-2020 10:31:25 :: [selenium_core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-20-2020 10:31:25 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:31:25 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 10:31:26 :: [selenium_core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-20-2020 10:31:26 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:31:26 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Report: failed  ******************************************************* >>>
+10-20-2020 10:33:55 :: [selenium_core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-20-2020 10:33:55 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:33:55 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Report:  Test failed  ******************************************************* >>>
+10-20-2020 10:33:59 :: [selenium_core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-20-2020 10:33:59 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:33:59 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 10:33:59 :: [selenium_core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-20-2020 10:33:59 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:33:59 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Report:  Test failed  ******************************************************* >>>
+10-20-2020 10:35:39 :: [selenium_core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-20-2020 10:35:39 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:35:39 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 10:35:40 :: [selenium_core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-20-2020 10:35:40 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:35:40 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Report:  Test failed  ******************************************************* >>>
+10-20-2020 10:37:17 :: [selenium_core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-20-2020 10:37:17 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:37:17 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 10:37:17 :: [selenium_core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-20-2020 10:37:17 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:37:17 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Report:  Test failed  ******************************************************* >>>
+10-20-2020 10:55:18 :: [selenium_core.helpers.assertion.AssertionHelper - makeTrue][INFO ] - Making script PASS..
+10-20-2020 10:55:18 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:55:18 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 10:55:18 :: [selenium_core.helpers.assertion.AssertionHelper - makeFalse][INFO ] - Making script FAIL..
+10-20-2020 10:55:18 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-20-2020 10:55:18 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Report:  Test failed  ******************************************************* >>>
+10-20-2020 10:59:04 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 2053996178
+10-20-2020 10:59:04 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-20-2020 10:59:04 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-20-2020 10:59:04 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-20-2020 10:59:04 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-20-2020 10:59:06 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-20-2020 10:59:06 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 11:00:47 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 159290353
+10-20-2020 11:00:47 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-20-2020 11:00:47 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-20-2020 11:00:47 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-20-2020 11:00:47 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-20-2020 11:00:50 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-20-2020 11:00:50 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 11:05:19 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 2053996178
+10-20-2020 11:05:19 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-20-2020 11:05:19 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-20-2020 11:05:19 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-20-2020 11:05:19 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-20-2020 11:05:23 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-20-2020 11:05:23 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 11:06:09 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 159290353
+10-20-2020 11:06:09 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-20-2020 11:06:09 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-20-2020 11:06:09 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-20-2020 11:06:09 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-20-2020 11:06:14 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-20-2020 11:06:14 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 11:10:00 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 2053996178
+10-20-2020 11:10:00 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-20-2020 11:10:00 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-20-2020 11:10:00 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-20-2020 11:10:00 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-20-2020 11:10:04 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-20-2020 11:10:04 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 11:12:37 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 2053996178
+10-20-2020 11:12:37 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-20-2020 11:12:37 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-20-2020 11:12:37 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-20-2020 11:12:37 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-20-2020 11:12:40 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass <<<<<<<<<===============>>>>>>>>>>>
+10-20-2020 11:12:40 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 11:18:29 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 2053996178
+10-20-2020 11:18:29 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-20-2020 11:18:29 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-20-2020 11:18:29 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-20-2020 11:18:29 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-20-2020 11:18:33 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-20-2020 11:18:33 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 11:21:24 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 159290353
+10-20-2020 11:21:24 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-20-2020 11:21:24 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-20-2020 11:21:24 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-20-2020 11:21:24 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-20-2020 11:21:30 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-20-2020 11:21:30 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 11:21:47 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 2053996178
+10-20-2020 11:21:47 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-20-2020 11:21:47 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-20-2020 11:21:47 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-20-2020 11:21:47 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-20-2020 11:21:50 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-20-2020 11:21:50 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 11:22:10 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 2053996178
+10-20-2020 11:22:10 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-20-2020 11:22:10 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-20-2020 11:22:10 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-20-2020 11:22:10 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-20-2020 11:22:13 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-20-2020 11:22:13 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 11:23:23 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 2053996178
+10-20-2020 11:23:23 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-20-2020 11:23:23 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-20-2020 11:23:23 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-20-2020 11:23:23 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-20-2020 11:23:26 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-20-2020 11:23:26 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 11:24:41 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 2053996178
+10-20-2020 11:24:41 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-20-2020 11:24:41 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-20-2020 11:24:41 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-20-2020 11:24:41 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-20-2020 11:24:45 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-20-2020 11:24:45 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-20-2020 11:25:37 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 159290353
+10-20-2020 11:25:37 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-20-2020 11:25:37 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-20-2020 11:25:37 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-20-2020 11:25:37 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-20-2020 11:25:41 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-20-2020 11:25:41 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>

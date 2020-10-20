@@ -30,6 +30,7 @@ import selenium_core.utils.ExtentManager;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
+import java.nio.file.Files;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
@@ -53,7 +54,7 @@ public class TestBase  // TestNg annotation reporting.html
     }
     //----------------------------------------------------------------------------------------------------------------||
     @BeforeSuite
-    public void beforeSuite()
+    public void beforeSuite() // Getting instance of ExtentManager class
     {
         extentReports = ExtentManager.getInstance();
     }
@@ -73,7 +74,7 @@ public class TestBase  // TestNg annotation reporting.html
     @BeforeMethod
     public void beforeMethod(Method method)
     {
-        test.log(Status.INFO, method.getName() + " test started");
+        test.log(Status.INFO, method.getName() + " test started...");
     }
     //----------------------------------------------------------------------------------------------------------------||
     @AfterMethod
@@ -83,20 +84,20 @@ public class TestBase  // TestNg annotation reporting.html
         {
             test.log(Status.FAIL, result.getThrowable());
             String imagePath = captureScreenShot(result.getName(), driver);
-            log.info("<<< Report: failed  ******************************************************* >>>");
+            log.info("<<< Report:  Test failed  ******************************************************* >>>");
             test.addScreenCaptureFromPath(imagePath);
-
         }
         else if(result.getStatus() == ITestResult.SUCCESS)
         {
-            test.log(Status.PASS, result.getTestName() + " is pass");
+            test.log(Status.PASS, result.getName() + " is pass");
             String imagePath = captureScreenShot(result.getName(), driver);
-            log.info("<<Adding ScreenShot to report file ...>>>");
+            log.info("<<<Adding ScreenShot to report file ...>>>");
+            //test.addScreenCaptureFromPath(imagePath);
             test.addScreenCaptureFromPath(imagePath);
         }
         else if(result.getStatus() == ITestResult.SKIP)
         {
-            log.info("<<Skipping...>>>");
+            log.info("<<<Skipping test...>>>");
             test.log(Status.SKIP, result.getThrowable());
         }
         extentReports.flush();
@@ -125,6 +126,9 @@ public class TestBase  // TestNg annotation reporting.html
                     IExplorerBrowser ie = IExplorerBrowser.class.newInstance();
                     InternetExplorerOptions cap = ie.getIExplorerCapabilities();
                     return ie.getInternetExplorerDriver(cap);
+
+                case Safari:
+                    //Get object of Edge class
 
                 default:
                         throw new Exception("Driver not found: " + btype.name());
@@ -167,11 +171,11 @@ public class TestBase  // TestNg annotation reporting.html
         try
         {
             destFile = new File(reportDirectory +"/"+fileName +"_"+formatter.format(calendar.getTime())+".png");
-            //destFile = new File("/Users/Stan/IdeaProjects/workablereposelenium/src/main/java/core/screenshots"+driver.getTitle()+".png");
-            log.info("Taking a pass <<<<<<<<<===============>>>>>>>>>>>");
-            //Files.copy(screenshotFile.toPath(), destFile.toPath());
-            FileUtils.copyFile(screenshotFile, destFile);
-            //Reporter.log("<a href='" + destFile.getAbsolutePath() + "'><img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/></a>");
+            //destFile = new File(ResourceHelper.getRecoursePath("/src/main/java/selenium_core/screenshots/") + driver.getTitle() + ".png");
+            log.info("Taking a pass...");
+            Files.copy(screenshotFile.toPath(), destFile.toPath());
+            //FileUtils.copyFile(screenshotFile, destFile);
+            Reporter.log("<a href='" + destFile.getAbsolutePath() + "'><img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/></a>");
             //Reporter.log("<br><img src='"+destFile+"' height='400' width='400'/><br>");
         }
 
