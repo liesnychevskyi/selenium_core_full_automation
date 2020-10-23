@@ -91,7 +91,7 @@ public class TestBase  // TestNg annotation reporting.html
         {
             test.log(Status.PASS, result.getName() + " is pass");
             String imagePath = captureScreenShot(result.getName(), driver);
-            log.info("<<<Adding ScreenShot to report file ...>>>");
+            log.info("<<< Adding ScreenShot to report file ... >>>");
             //test.addScreenCaptureFromPath(imagePath);
             test.addScreenCaptureFromPath(imagePath);
         }
@@ -111,7 +111,7 @@ public class TestBase  // TestNg annotation reporting.html
             {
                 case Chrome:
                     //Get object of ChromeBrowser class
-                    ChromeBrowser chrome = ChromeBrowser.class.newInstance(); //Instance of chrome browser
+                    ChromeBrowser chrome = ChromeBrowser.class.newInstance(); //Instance of chrome browser class
                     ChromeOptions options_0 = chrome.getChromeOptions();
                     return chrome.getChromeDriver(options_0);
 
@@ -128,11 +128,10 @@ public class TestBase  // TestNg annotation reporting.html
                     return ie.getInternetExplorerDriver(cap);
 
                 case Safari:
-                    //Get object of Edge class
+                    //Get object of Safari class
 
                 default:
                         throw new Exception("Driver not found: " + btype.name());
-
             }
         }
         catch (Exception e)

@@ -15,7 +15,7 @@ public class PropertyReader implements ConfigReader
     public PropertyReader()  // Load the property file to the memory
     {
     //----------------------------------------------------------------------------------------------------------------||
- //path for windows//String filePath = ResourceHelper.getRecoursePath("\\src\\main\\resources\\config.properties");
+    //path for windows//String filePath = ResourceHelper.getRecoursePath("\\src\\main\\resources\\config.properties");
         String filePath = ResourceHelper.getRecoursePath("/src/main/resources/config.properties");
         try
         {
@@ -32,25 +32,25 @@ public class PropertyReader implements ConfigReader
     @Override
     public int getImplicitWait()
     {
-        return Integer.parseInt(OR.getProperty("implicitwait"));
+        return Integer.parseInt(OR.getProperty("implicitWait"));
     }
     //----------------------------------------------------------------------------------------------------------------||
     @Override
     public int getExplicitWait()
     {
-        return Integer.parseInt(OR.getProperty("explicitwait"));
+        return Integer.parseInt(OR.getProperty("explicitWait"));
     }
     //----------------------------------------------------------------------------------------------------------------||
     @Override
     public int getPageLoadTime()
     {
-        return Integer.parseInt(OR.getProperty("pageloadtime"));
+        return Integer.parseInt(OR.getProperty("pageLoadTime"));
     }
     //----------------------------------------------------------------------------------------------------------------||
     @Override
     public selenium_core.helpers.browser_configurations.BrowserType getBrowserType()
     {
-       return selenium_core.helpers.browser_configurations.BrowserType.valueOf(OR.getProperty("browsertype"));
+       return selenium_core.helpers.browser_configurations.BrowserType.valueOf(OR.getProperty("browserType"));
     }
     //----------------------------------------------------------------------------------------------------------------||
     @Override
@@ -59,7 +59,7 @@ public class PropertyReader implements ConfigReader
         System.out.println(OR.getProperty("applicationUrl"));
         return OR.getProperty("applicationUrl");
     }
-    //----------------------------------------------------------------------------------------------------------------||
+//    //--------------------------------------------------------------------------------------------------------------||
 //    @Override
 //    public String getApplicationUrl()
 //    {
@@ -67,7 +67,7 @@ public class PropertyReader implements ConfigReader
 //         System.out.println(OR.getProperty("applicationUrl"));
 //        return System.getProperty("applicationUrl");
 //    }
-    //----------------------------------------------------------------------------------------------------------------||
+//  //----------------------------------------------------------------------------------------------------------------||
     @Override
     public String getUserName()
     {
