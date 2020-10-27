@@ -10,7 +10,7 @@ public class TestReportExample extends TestBase
     public void testScreen()
     {
         driver.get("https://www.lifehack.org/money");
-        //captureScreenShot("Money", driver);
+        //captureScreenShot("Money");
     }
 }
 

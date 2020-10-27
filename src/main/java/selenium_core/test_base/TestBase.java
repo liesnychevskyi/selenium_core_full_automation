@@ -3,7 +3,6 @@ package selenium_core.test_base;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
@@ -13,12 +12,13 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerOptions;
 import org.testng.ITestResult;
-import org.testng.Reporter;
 import org.testng.annotations.*;
+import org.testng.Reporter;
 import selenium_core.helpers.browser_configurations.BrowserType;
 import selenium_core.helpers.browser_configurations.ChromeBrowser;
 import selenium_core.helpers.browser_configurations.FirefoxBrowser;
 import selenium_core.helpers.browser_configurations.IExplorerBrowser;
+import selenium_core.helpers.browser_configurations.config.ConfigReader;
 import selenium_core.helpers.browser_configurations.config.ObjectReader;
 import selenium_core.helpers.browser_configurations.config.PropertyReader;
 import selenium_core.helpers.javascript.JavaScriptHelper;
@@ -47,10 +47,11 @@ public class TestBase  // TestNg annotation reporting.html
     @BeforeTest
     public void beforeTest() throws Exception
     {
-        ObjectReader.reader = new PropertyReader();
+        //ConfigReader reader = new PropertyReader();// The same
+        ObjectReader.reader = new PropertyReader(); // Initialize data in RUNTIME for reading data from configuration file
         //reportDirectory = new File(ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\screenshots\\"));
         reportDirectory = new File(ResourceHelper.getRecoursePath("/src/main/java/selenium_core/screenshots"));
-        setUpDriver(ObjectReader.reader.getBrowserType());
+        setUpDriver(ObjectReader.reader.getBrowserType()); // Launch the browser + and browser type
     }
     //----------------------------------------------------------------------------------------------------------------||
     @BeforeSuite
@@ -92,7 +93,6 @@ public class TestBase  // TestNg annotation reporting.html
             test.log(Status.PASS, result.getName() + " is pass");
             String imagePath = captureScreenShot(result.getName(), driver);
             log.info("<<< Adding ScreenShot to report file ... >>>");
-            //test.addScreenCaptureFromPath(imagePath);
             test.addScreenCaptureFromPath(imagePath);
         }
         else if(result.getStatus() == ITestResult.SKIP)
@@ -169,21 +169,19 @@ public class TestBase  // TestNg annotation reporting.html
         File screenshotFile = ((TakesScreenshot) this.driver).getScreenshotAs(OutputType.FILE);
         try
         {
-            destFile = new File(reportDirectory +"/"+fileName +"_"+formatter.format(calendar.getTime())+".png");
+            destFile = new File(reportDirectory +"/"+fileName+"_"+formatter.format(calendar.getTime())+".png");
             //destFile = new File(ResourceHelper.getRecoursePath("/src/main/java/selenium_core/screenshots/") + driver.getTitle() + ".png");
             log.info("Taking a pass...");
             Files.copy(screenshotFile.toPath(), destFile.toPath());
             //FileUtils.copyFile(screenshotFile, destFile);
-            Reporter.log("<a href='" + destFile.getAbsolutePath() + "'><img src='" + destFile.getAbsolutePath() + "' height='100' width='100'/></a>");
+            Reporter.log("<a href='"+destFile.getAbsolutePath()+"'><img src='"+destFile.getAbsolutePath()+"'height='100' width='100'/></a>");
             //Reporter.log("<br><img src='"+destFile+"' height='400' width='400'/><br>");
         }
-
         catch (Exception e)
         {
             e.printStackTrace();
         }
         return destFile.toString();
-
     }
     //----------------------------------------------------------------------------------------------------------------||
     public void getNavigationScreen(WebDriver driver)
@@ -221,7 +219,7 @@ public class TestBase  // TestNg annotation reporting.html
             //driver.close();
         }
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public void driverClose()
     {
         if(driver != null)
@@ -230,5 +228,8 @@ public class TestBase  // TestNg annotation reporting.html
         }
     }
     //----------------------------------------------------------------------------------------------------------------||
+
+    //----------------------------------------------------------------------------------------------------------------||
+
 }
 

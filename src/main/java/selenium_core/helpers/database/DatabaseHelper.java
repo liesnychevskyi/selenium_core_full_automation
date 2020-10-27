@@ -11,12 +11,12 @@ public class DatabaseHelper
 {
     //----------------------------------------------------------------------------------------------------------------||
     private static Logger log = MyLogger.getLogger(selenium_core.helpers.database.DatabaseHelper.class);
-    private static String url = "jdbc:mysql://localhost:3306/my?serverTimezone=" + TimeZone.getDefault().getID();
+    private static String url = "jdbc:mysql://localhost:3306/family?serverTimezone=" + TimeZone.getDefault().getID();
     //----------------------------------------------------------------------------------------------------------------||
-   // private static String url = "jdbc:mysql://localhost:3306/my_family/"; // localhost
+    //private static String url = "jdbc:mysql://localhost:3306/family/"; // localhost
     private static String driverName = "com.mysql.cj.jdbc.Driver";
     private static String userName = "root";
-    private static String password = "2728torikpes2728";
+    private static String password = "7753191ilove7753191";
     private static Connection connection;
     private static selenium_core.helpers.database.DatabaseHelper instance = null;
     //----------------------------------------------------------------------------------------------------------------||
@@ -31,7 +31,6 @@ public class DatabaseHelper
             {
                 // The newInstance() call is a work around for some
                 // broken Java implementations
-
                 Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
             }
             catch (Exception ex)
@@ -39,19 +38,18 @@ public class DatabaseHelper
                 // handle the error
             }
         }
+    // Constructor
     //----------------------------------------------------------------------------------------------------------------||
-    public static selenium_core.helpers.database.DatabaseHelper getInstance()
+    public static DatabaseHelper getInstance()
     {
         if(instance == null)
         {
-            instance = new selenium_core.helpers.database.DatabaseHelper();
+            instance = new DatabaseHelper();
         }
         return instance;
     }
     //----------------------------------------------------------------------------------------------------------------||
-     /*
-    This method will connect us to database
-     */
+    //This method will connect us to database
     private Connection getSingleInstanceConnection()
     {
         try
@@ -59,16 +57,16 @@ public class DatabaseHelper
             Class.forName(driverName);
             try
             {
-                Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
+                Class.forName(driverName).newInstance();
                 connection = DriverManager.getConnection(url, userName, password);
                 if(connection != null)
                 {
-                    log.info("Connected to Person Base..");
+                    log.info("Connected to DataBase..");
                 }
             }
             catch (SQLException e)
             {
-                log.error("Failed to create Person Base connection.." + e);
+                log.error("Failed to create DataBase connection.." + e);
             }
             catch (IllegalAccessException e)
             {

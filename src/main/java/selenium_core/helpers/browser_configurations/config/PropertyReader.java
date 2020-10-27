@@ -12,6 +12,7 @@ public class PropertyReader implements ConfigReader
     private static FileInputStream file;
     private static Properties OR;
 
+    // Constructor
     public PropertyReader()  // Load the property file to the memory
     {
     //----------------------------------------------------------------------------------------------------------------||

@@ -2,35 +2,35 @@ package selenium_core.helpers.database;
 
 public class Person
 {
-    private int id;
-    private String lastName;
-    private String firstName;
+    private int person_id;
+    private String first_name;
+    private String last_name;
     private int age;
-    private String mobileNumber;
+    private String phone_number;
 
     public void setId(int id)
     {
-        this.id = id;
+        this.person_id = id;
     }
 
     public int getId()
     {
-        return id;
+        return person_id;
     }
 
     public String getLastName()
     {
-        return lastName;
+        return last_name;
     }
 
     public void setLastName(String lastName)
     {
-        this.lastName = lastName;
+        this.last_name = lastName;
     }
 
     public void setFirstName(String firstName)
     {
-        this.firstName = firstName;
+        this.first_name = firstName;
     }
 
     public void setAge(int age)
@@ -40,12 +40,12 @@ public class Person
 
     public void setMobileNumber(String mobileNumber)
     {
-        this.mobileNumber = mobileNumber;
+        this.phone_number = mobileNumber;
     }
 
     public String getFirstName()
     {
-        return firstName;
+        return first_name;
     }
 
     public int getAge()
@@ -55,6 +55,6 @@ public class Person
 
     public String getMobileNumber()
     {
-        return mobileNumber;
+        return phone_number;
     }
 }

@@ -3,8 +3,8 @@
 
 <suite name="Regression suite">
     <listeners>
-        <listener class-name="selenium_core.helpers.listener.RetryListener"></listener>
-<!--        <listener class-name="selenium_core.helpers.listener.ExtentListener"></listener>-->
+<!--        <listener class-name="selenium_core.helpers.listener.RetryListener"></listener>-->
+        <listener class-name="selenium_core.helpers.listener.ExtentListener"></listener>
     </listeners>
 
     <test name="Test 1">
@@ -22,6 +22,12 @@
     <test name="Test 3">
         <classes>
             <class name="selenium_core.test_scripts.Test_3"></class>
+        </classes>
+    </test>
+
+    <test name="Test Report Example">
+        <classes>
+            <class name="selenium_core.test_scripts.TestReportExample"></class>
         </classes>
     </test>
 </suite>

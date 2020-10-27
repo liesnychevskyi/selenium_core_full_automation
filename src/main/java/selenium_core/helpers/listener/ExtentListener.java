@@ -61,8 +61,8 @@ public class ExtentListener implements ITestListener
     {
         extentReports = ExtentManager.getInstance();
         test = extentReports.createTest(context.getName());
-        test = extentReports.createTest(context.getCurrentXmlTest().getName());
-        Reporter.log(context.getName() + " Test Started...");
+        //test = extentReports.createTest(context.getCurrentXmlTest().getName());
+        //Reporter.log(context.getName() + " Test Started...");
         Reporter.log(context.getCurrentXmlTest().getName() + " Class Started...");
         log.info(context.getCurrentXmlTest().getName() + " Class Started...");
     }

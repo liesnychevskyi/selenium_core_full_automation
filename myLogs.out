@@ -246,3 +246,649 @@ Driver info: driver.version: ChromeDriver
 10-20-2020 11:25:37 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
 10-20-2020 11:25:41 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
 10-20-2020 11:25:41 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<<Adding ScreenShot to report file ...>>>
+10-24-2020 07:38:14 :: [selenium_core.test_base.TestBase - getBrowserObject][INFO ] - The driver executable does not exist: /Users/stanislav/IdeaProjects/selnium_core_full_automation/src/main/java/core/drivers/geckodriver
+10-24-2020 07:39:38 :: [selenium_core.test_base.TestBase - getBrowserObject][INFO ] - invalid argument: can't kill an exited process
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Stanislavs-MacBook-Pro.local', ip: 'fe80:0:0:0:1874:1c3:c38a:a870%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_251'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+10-24-2020 07:48:15 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 257459516
+10-24-2020 07:48:15 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 07:48:15 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 07:48:15 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 07:48:15 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 07:48:17 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 07:48:17 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-24-2020 07:48:42 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 257459516
+10-24-2020 07:48:42 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 07:48:42 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 07:48:42 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 07:48:42 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 07:48:51 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 07:48:51 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-24-2020 09:18:08 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1161322357
+10-24-2020 09:18:08 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 09:18:08 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 09:18:08 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 09:18:08 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 09:18:15 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 09:18:16 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 09:18:16 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-24-2020 09:24:26 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 757708014
+10-24-2020 09:24:26 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 09:24:26 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 09:24:26 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 09:24:26 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 09:24:39 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 09:24:40 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 09:24:40 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-24-2020 09:26:45 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1161322357
+10-24-2020 09:26:45 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 09:26:45 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 09:26:45 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 09:26:45 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 09:26:55 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 09:26:55 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 09:26:55 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-24-2020 09:29:18 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1848289347
+10-24-2020 09:29:18 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 09:29:18 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 09:29:18 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 09:29:18 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 09:29:28 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 09:29:29 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 09:29:29 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-24-2020 09:55:51 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 889422145
+10-24-2020 09:55:51 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 09:55:51 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 09:55:51 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 09:55:51 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 09:57:43 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 10:00:15 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 479920916
+10-24-2020 10:00:15 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 10:00:15 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 10:00:15 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 10:00:15 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 10:00:16 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 10:00:17 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 10:00:17 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-24-2020 10:05:45 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 727497138
+10-24-2020 10:05:45 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 10:05:45 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 10:05:45 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 10:05:45 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 10:07:29 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1161322357
+10-24-2020 10:07:29 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 10:07:29 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 10:07:29 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 10:07:29 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 10:07:31 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 10:07:31 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 10:07:31 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-24-2020 10:09:46 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1161322357
+10-24-2020 10:09:46 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 10:09:46 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 10:09:46 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 10:09:46 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 10:09:48 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 10:09:48 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 10:09:48 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-24-2020 10:14:08 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1161322357
+10-24-2020 10:14:08 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 10:14:08 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 10:14:08 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 10:14:08 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 10:14:12 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 10:14:13 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 10:14:13 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-24-2020 10:19:01 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 757708014
+10-24-2020 10:19:01 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 10:19:01 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 10:19:01 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 10:19:01 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 10:19:02 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 10:19:03 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 10:20:49 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1161322357
+10-24-2020 10:20:49 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 10:20:49 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 10:20:49 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 10:20:49 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 10:20:50 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 10:20:50 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 10:20:50 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-24-2020 10:25:25 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1237912220
+10-24-2020 10:25:25 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 10:25:25 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 10:25:25 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 10:25:25 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 10:26:34 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1161322357
+10-24-2020 10:26:34 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 10:26:34 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 10:26:34 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 10:26:34 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 10:27:39 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 257459516
+10-24-2020 10:27:39 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 10:27:39 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 10:27:39 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 10:27:39 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 10:28:40 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 10:28:40 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Report:  Test failed  ******************************************************* >>>
+10-24-2020 10:31:34 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 757708014
+10-24-2020 10:31:34 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 10:31:34 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 10:31:34 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 10:31:34 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 10:31:36 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 10:31:36 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 10:31:36 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-24-2020 10:33:48 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1848289347
+10-24-2020 10:33:48 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 10:33:48 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 10:33:48 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 10:33:48 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 10:33:50 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 10:33:50 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 10:33:50 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-24-2020 10:50:31 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 479920916
+10-24-2020 10:50:31 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 10:50:31 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 10:50:31 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 10:50:31 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 10:50:32 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 10:50:33 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 10:50:33 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-24-2020 11:09:44 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 757708014
+10-24-2020 11:09:44 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 11:09:44 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 11:09:44 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 11:09:44 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 11:10:24 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 11:10:24 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Report:  Test failed  ******************************************************* >>>
+10-24-2020 11:10:31 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1237912220
+10-24-2020 11:10:31 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 11:10:31 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 11:10:31 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 11:10:31 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 11:10:33 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 11:10:33 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 11:10:33 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-24-2020 11:11:54 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1930240356
+10-24-2020 11:11:54 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 11:11:54 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 11:11:54 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 11:11:54 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 11:11:56 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 11:11:56 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 11:11:56 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-24-2020 11:19:30 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1930240356
+10-24-2020 11:19:30 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-24-2020 11:19:30 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-24-2020 11:19:30 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-24-2020 11:19:30 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-24-2020 11:19:32 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 11:19:32 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-24-2020 11:19:32 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-26-2020 13:24:14 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 13:24:14 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 13:24:14 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 13:24:14 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 13:24:14 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 13:24:14 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 13:24:14 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 13:24:14 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 13:24:14 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 13:24:14 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 13:24:14 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 13:24:14 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 13:31:16 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 13:31:16 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 13:31:16 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 13:31:16 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 13:31:16 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 13:31:16 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 13:31:16 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 13:31:17 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 13:31:17 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 13:31:17 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 13:31:17 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 13:31:17 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 13:37:18 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 13:37:18 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 13:37:18 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 13:37:18 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 13:37:18 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 13:37:18 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 13:37:18 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 13:37:19 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 13:37:19 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 13:37:19 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 13:37:19 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 13:37:19 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 13:43:35 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 13:43:35 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 13:43:35 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 13:43:36 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 13:43:36 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 13:43:36 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 13:43:36 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 13:43:36 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 13:43:36 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 13:43:36 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 13:43:36 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 13:43:36 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 13:44:39 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 13:44:39 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 13:44:39 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 13:44:40 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 13:44:40 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 13:44:40 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 13:44:40 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 13:44:40 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 13:44:40 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 13:44:40 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 13:44:40 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 13:44:40 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 13:49:18 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 13:49:18 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 13:49:18 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 13:49:19 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 13:49:19 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 13:49:19 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 13:49:19 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 13:49:19 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 13:49:19 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 13:49:19 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 13:49:19 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 13:49:19 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 13:51:27 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 13:51:27 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 13:51:27 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 13:51:27 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 13:51:27 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 13:51:27 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 13:51:27 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 13:51:27 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 13:51:27 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 13:51:27 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 13:51:27 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 13:51:27 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 13:52:24 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 13:52:24 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 13:52:24 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 13:52:25 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 13:52:25 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 13:52:25 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 13:52:25 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 13:52:25 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 13:52:25 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 13:52:25 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 13:52:25 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 13:52:25 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 13:53:15 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 13:53:15 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 13:53:15 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 13:53:15 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 13:53:15 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 13:53:15 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 13:53:15 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 13:53:15 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 13:53:15 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 13:53:15 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 13:53:15 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 13:53:15 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 13:54:15 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 13:54:15 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 13:54:15 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 13:54:15 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 13:54:15 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 13:54:15 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 13:54:15 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 13:54:15 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 13:54:15 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 13:54:15 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 13:54:15 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 13:54:15 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 14:45:06 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 14:45:06 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 14:45:06 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 14:45:07 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 14:45:07 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 14:45:07 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 14:45:07 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 14:45:07 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 14:45:07 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 14:45:07 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 14:45:07 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 14:45:07 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 14:46:04 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 14:46:04 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 14:46:04 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 14:46:05 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 14:46:05 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 14:46:05 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 14:46:05 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 14:46:05 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 14:46:05 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 14:46:05 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 14:46:05 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 14:46:05 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 14:54:15 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 14:54:15 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 14:54:15 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 14:54:15 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 14:54:15 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 14:54:15 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 14:54:15 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 14:54:16 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 14:54:16 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 14:54:16 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 14:54:16 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 14:54:16 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 14:54:16 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - TestReportExample Class Started...
+10-26-2020 14:54:21 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 896072146
+10-26-2020 14:54:21 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-26-2020 14:54:21 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-26-2020 14:54:21 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-26-2020 14:54:21 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-26-2020 14:54:21 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+10-26-2020 14:54:23 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-26-2020 14:54:23 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+10-26-2020 14:54:23 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-26-2020 14:54:23 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-26-2020 14:54:23 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - TestReportExample Test Finished.
+10-26-2020 14:57:10 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 14:57:10 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 14:57:10 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 14:57:10 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 14:57:10 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 14:57:10 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 14:57:10 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 14:57:11 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 14:57:11 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 14:57:11 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 14:57:11 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 14:57:11 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 14:57:11 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - TestReportExample Class Started...
+10-26-2020 14:57:13 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1908571880
+10-26-2020 14:57:13 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-26-2020 14:57:13 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-26-2020 14:57:13 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-26-2020 14:57:13 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-26-2020 14:57:14 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+10-26-2020 14:57:15 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+10-26-2020 14:57:15 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-26-2020 14:57:15 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-26-2020 14:57:16 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - TestReportExample Test Finished.
+10-26-2020 15:00:24 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 15:00:24 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 15:00:24 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 15:00:24 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 15:00:24 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 15:00:24 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 15:00:24 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 15:00:24 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 15:00:24 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 15:00:24 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 15:00:24 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 15:00:24 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 15:00:24 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - TestReportExample Class Started...
+10-26-2020 15:00:27 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1048434276
+10-26-2020 15:00:27 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-26-2020 15:00:27 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-26-2020 15:00:27 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-26-2020 15:00:27 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-26-2020 15:00:28 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+10-26-2020 15:00:29 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+10-26-2020 15:00:29 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-26-2020 15:00:29 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-26-2020 15:00:30 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - TestReportExample Test Finished.
+10-26-2020 15:03:58 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 15:03:58 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 15:03:58 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 15:03:58 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 15:03:58 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 15:03:58 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 15:03:58 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 15:03:59 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 15:03:59 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 15:03:59 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 15:03:59 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 15:03:59 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 15:03:59 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - TestReportExample Class Started...
+10-26-2020 15:04:01 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1908571880
+10-26-2020 15:04:01 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-26-2020 15:04:01 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-26-2020 15:04:01 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-26-2020 15:04:01 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-26-2020 15:04:02 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+10-26-2020 15:04:07 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+10-26-2020 15:04:07 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-26-2020 15:04:07 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-26-2020 15:04:07 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - TestReportExample Test Finished.
+10-26-2020 15:05:31 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 15:05:31 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 15:05:31 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 15:05:31 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 15:05:31 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 15:05:31 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 15:05:31 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 15:05:31 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 15:05:31 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 15:05:31 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 15:05:31 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 15:05:31 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 15:05:31 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test Report Example Class Started...
+10-26-2020 15:05:34 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1908571880
+10-26-2020 15:05:34 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-26-2020 15:05:34 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-26-2020 15:05:34 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-26-2020 15:05:34 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-26-2020 15:05:34 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+10-26-2020 15:05:35 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+10-26-2020 15:05:35 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-26-2020 15:05:35 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-26-2020 15:05:36 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test Report Example Test Finished.
+10-26-2020 15:11:36 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 15:11:36 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 15:11:36 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 15:11:36 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 15:11:36 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 15:11:36 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 15:11:36 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 15:11:36 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 15:11:36 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 15:11:36 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 15:11:36 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 15:11:36 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 15:11:36 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test Report Example Class Started...
+10-26-2020 15:11:39 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 896072146
+10-26-2020 15:11:39 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-26-2020 15:11:39 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-26-2020 15:11:39 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-26-2020 15:11:39 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-26-2020 15:11:39 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+10-26-2020 15:11:40 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+10-26-2020 15:11:41 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-26-2020 15:11:41 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-26-2020 15:11:41 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test Report Example Test Finished.
+10-26-2020 15:18:03 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 15:18:03 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 15:18:03 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 15:18:04 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 15:18:04 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 15:18:04 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 15:18:04 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 15:18:04 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 15:18:04 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 15:18:04 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 15:18:04 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 15:18:04 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 15:18:04 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test Report Example Class Started...
+10-26-2020 15:18:07 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1363396194
+10-26-2020 15:18:07 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-26-2020 15:18:07 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-26-2020 15:18:07 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-26-2020 15:18:07 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-26-2020 15:18:07 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+10-26-2020 15:18:09 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+10-26-2020 15:18:09 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-26-2020 15:18:09 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-26-2020 15:18:09 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test Report Example Test Finished.
+10-26-2020 15:19:49 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 15:19:49 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 15:19:49 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 15:19:49 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 15:19:49 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 15:19:49 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 15:19:49 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 15:19:49 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 15:19:49 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 15:19:49 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 15:19:49 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 15:19:49 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 15:19:49 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test Report Example Class Started...
+10-26-2020 15:19:52 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 896072146
+10-26-2020 15:19:52 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-26-2020 15:19:52 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-26-2020 15:19:52 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-26-2020 15:19:52 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-26-2020 15:19:52 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+10-26-2020 15:19:53 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+10-26-2020 15:19:54 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-26-2020 15:19:54 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-26-2020 15:19:54 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test Report Example Test Finished.
+10-26-2020 15:22:43 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 15:22:43 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 15:22:43 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 15:22:43 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 15:22:43 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 15:22:43 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 15:22:43 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 15:22:43 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 15:22:43 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 15:22:43 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 15:22:43 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 15:22:43 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 15:22:43 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test Report Example Class Started...
+10-26-2020 15:22:45 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 896072146
+10-26-2020 15:22:46 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-26-2020 15:22:46 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-26-2020 15:22:46 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-26-2020 15:22:46 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-26-2020 15:22:46 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+10-26-2020 15:22:47 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+10-26-2020 15:22:47 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test Report Example Test Finished.
+10-26-2020 15:24:15 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 15:24:15 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 15:24:15 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 15:24:15 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 15:24:15 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 15:24:15 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 15:24:15 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 15:24:15 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 15:24:15 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 15:24:15 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 15:24:15 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 15:24:15 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 15:24:15 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test Report Example Class Started...
+10-26-2020 15:24:18 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1771421544
+10-26-2020 15:24:18 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-26-2020 15:24:18 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-26-2020 15:24:18 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-26-2020 15:24:18 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-26-2020 15:24:18 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+10-26-2020 15:24:19 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+10-26-2020 15:24:19 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test Report Example Test Finished.
+10-26-2020 15:25:14 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 15:25:14 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 15:25:14 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 15:25:14 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 15:25:14 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 15:25:14 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 15:25:14 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 15:25:14 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 15:25:14 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 15:25:14 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 15:25:14 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 15:25:15 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 15:25:15 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test Report Example Class Started...
+10-26-2020 15:25:17 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1908571880
+10-26-2020 15:25:17 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-26-2020 15:25:17 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-26-2020 15:25:17 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-26-2020 15:25:17 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-26-2020 15:25:18 :: [selenium_core.helpers.listener.ExtentListener - onTestSkipped][WARN ] - testScreen Test Skipped java.lang.NullPointerException
+10-26-2020 15:25:18 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test Report Example Test Finished.
+10-26-2020 15:26:14 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 15:26:14 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 15:26:14 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 15:26:14 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 15:26:14 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 15:26:14 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 15:26:14 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 15:26:14 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 15:26:14 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 15:26:14 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 15:26:14 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 15:26:14 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 15:26:14 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test Report Example Class Started...
+10-26-2020 15:26:17 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 896072146
+10-26-2020 15:26:17 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-26-2020 15:26:17 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-26-2020 15:26:17 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-26-2020 15:26:17 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-26-2020 15:26:18 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+10-26-2020 15:26:21 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+10-26-2020 15:26:21 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-26-2020 15:26:21 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-26-2020 15:26:22 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test Report Example Test Finished.
+10-26-2020 15:39:52 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-26-2020 15:39:52 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-26-2020 15:39:52 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-26-2020 15:39:53 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-26-2020 15:39:53 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-26-2020 15:39:53 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-26-2020 15:39:53 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-26-2020 15:39:53 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-26-2020 15:39:53 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-26-2020 15:39:53 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-26-2020 15:39:53 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-26-2020 15:39:53 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-26-2020 15:39:53 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test Report Example Class Started...
+10-26-2020 15:39:56 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1048434276
+10-26-2020 15:39:56 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-26-2020 15:39:56 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-26-2020 15:39:56 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-26-2020 15:39:56 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-26-2020 15:39:57 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+10-26-2020 15:39:58 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+10-26-2020 15:39:58 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-26-2020 15:39:58 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-26-2020 15:39:59 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test Report Example Test Finished.
+10-27-2020 08:39:34 :: [selenium_core.helpers.database.DatabaseHelper - getSingleInstanceConnection][ERROR] - Failed to create Person Base connection..java.sql.SQLSyntaxErrorException: Unknown database 'my'
+10-27-2020 08:39:34 :: [selenium_core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
+10-27-2020 09:32:09 :: [selenium_core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to DataBase..
+10-27-2020 09:32:09 :: [selenium_core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select Mobile_Number from family where ID=2
+10-27-2020 09:38:24 :: [selenium_core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to DataBase..
+10-27-2020 09:38:24 :: [selenium_core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select phone_number from family where person_id=2
+10-27-2020 09:44:07 :: [selenium_core.helpers.database.DatabaseHelper - getSingleInstanceConnection][ERROR] - Failed to create DataBase connection..java.sql.SQLSyntaxErrorException: Unknown database 'person'
+10-27-2020 09:44:07 :: [selenium_core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select phone_number from family where person_id=2
+10-27-2020 09:45:27 :: [selenium_core.helpers.database.DatabaseHelper - getSingleInstanceConnection][ERROR] - Failed to create DataBase connection..java.sql.SQLSyntaxErrorException: Unknown database 'person'
+10-27-2020 09:45:27 :: [selenium_core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select phone_number from family where person_id=2
+10-27-2020 09:47:27 :: [selenium_core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to DataBase..
+10-27-2020 09:47:27 :: [selenium_core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select phone_number from family where person_id=2
+10-27-2020 09:52:06 :: [selenium_core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to DataBase..
+10-27-2020 09:52:06 :: [selenium_core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select phone_number from person where person_id=2
+10-27-2020 09:52:06 :: [selenium_core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select * from person
+10-27-2020 09:52:12 :: [selenium_core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to DataBase..
+10-27-2020 09:52:12 :: [selenium_core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select phone_number from person where person_id=2
+10-27-2020 09:52:12 :: [selenium_core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select * from person
+10-27-2020 10:08:50 :: [selenium_core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to DataBase..
+10-27-2020 10:08:50 :: [selenium_core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select phone_number from person where person_id=2
+10-27-2020 10:08:50 :: [selenium_core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select * from person
+10-27-2020 10:09:48 :: [selenium_core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to DataBase..
+10-27-2020 10:09:48 :: [selenium_core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select phone_number from person where person_id=2
+10-27-2020 10:09:48 :: [selenium_core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select * from person
+10-27-2020 10:10:17 :: [selenium_core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to DataBase..
+10-27-2020 10:10:17 :: [selenium_core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select phone_number from person where person_id=2
+10-27-2020 10:10:17 :: [selenium_core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select * from person
