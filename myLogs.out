@@ -892,3 +892,119 @@ remote stacktrace:
 10-27-2020 10:10:17 :: [selenium_core.helpers.database.DatabaseHelper - getSingleInstanceConnection][INFO ] - Connected to DataBase..
 10-27-2020 10:10:17 :: [selenium_core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select phone_number from person where person_id=2
 10-27-2020 10:10:17 :: [selenium_core.helpers.database.DatabaseHelper - getResultSet][INFO ] - Executing query: select * from person
+10-29-2020 19:01:51 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 1 Class Started...
+10-29-2020 19:01:51 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - loginTest Test Started 
+10-29-2020 19:01:51 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - loginTest Test Passed 
+10-29-2020 19:01:52 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 1 Test Finished.
+10-29-2020 19:01:52 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 2 Class Started...
+10-29-2020 19:01:52 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - enterTest Test Started 
+10-29-2020 19:01:52 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - enterTest Test Passed 
+10-29-2020 19:01:52 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 2 Test Finished.
+10-29-2020 19:01:52 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test 3 Class Started...
+10-29-2020 19:01:52 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - ClickTest Test Started 
+10-29-2020 19:01:52 :: [selenium_core.helpers.listener.ExtentListener - onTestFailure][ERROR] - ClickTest Test Failed java.lang.AssertionError: expected [true] but found [false]
+10-29-2020 19:01:52 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test 3 Test Finished.
+10-29-2020 19:01:52 :: [selenium_core.helpers.listener.ExtentListener - onStart][INFO ] - Test Report Example Class Started...
+10-29-2020 19:01:57 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1908571880
+10-29-2020 19:01:57 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-29-2020 19:01:57 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-29-2020 19:01:57 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-29-2020 19:01:57 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-29-2020 19:01:57 :: [selenium_core.helpers.listener.ExtentListener - onTestStart][INFO ] - testScreen Test Started 
+10-29-2020 19:01:59 :: [selenium_core.helpers.listener.ExtentListener - onTestSuccess][INFO ] - testScreen Test Passed 
+10-29-2020 19:02:00 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-29-2020 19:02:00 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-29-2020 19:02:00 :: [selenium_core.helpers.listener.ExtentListener - onFinish][INFO ] - Test Report Example Test Finished.
+10-31-2020 10:22:50 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1237912220
+10-31-2020 10:22:50 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-31-2020 10:22:50 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-31-2020 10:22:50 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-31-2020 10:22:50 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-31-2020 10:22:55 :: [selenium_core.page_objects.LoginPage - clickOnSignInLink][INFO ] - clicked on sign in link...
+10-31-2020 10:22:56 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-31-2020 10:22:56 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Report:  Test failed  ******************************************************* >>>
+10-31-2020 10:25:52 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 159290353
+10-31-2020 10:25:52 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-31-2020 10:25:52 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-31-2020 10:25:52 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-31-2020 10:25:52 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-31-2020 10:25:56 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-31-2020 10:25:56 :: [selenium_core.helpers.wait.WaitHelper - waitForElementClickable][INFO ] - WaitForElementClickable method is started and waiting for : [[ChromeDriver: chrome on MAC (affd4a2ea601e09aa03f4779457adc1b)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a] element and set time for : 200 seconds
+10-31-2020 10:25:56 :: [selenium_core.helpers.wait.WaitHelper - waitForElementClickable][INFO ] - Element [[ChromeDriver: chrome on MAC (affd4a2ea601e09aa03f4779457adc1b)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a] is clickable now
+10-31-2020 10:25:56 :: [selenium_core.test_base.TestBase - getNavigationScreen][INFO ] - Capturing UI navigation screen..
+10-31-2020 10:25:56 :: [selenium_core.helpers.javascript.JavaScriptHelper - <init>][INFO ] - JavaScriptHelper has been initialized successfully..
+10-31-2020 10:25:56 :: [selenium_core.helpers.javascript.JavaScriptHelper - zoomInBy60Percentage][INFO ] - ZoomInBy60Percentage method is started..
+10-31-2020 10:25:56 :: [selenium_core.helpers.javascript.JavaScriptHelper - executeScript][INFO ] - ExecuteScript method is started - script is: document.body.style.zoom='60%'
+10-31-2020 10:25:56 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-31-2020 10:25:56 :: [selenium_core.helpers.javascript.JavaScriptHelper - <init>][INFO ] - JavaScriptHelper has been initialized successfully..
+10-31-2020 10:25:56 :: [selenium_core.helpers.javascript.JavaScriptHelper - zoomInBy100Percentage][INFO ] - ZoomInBy100Percentage method is started..
+10-31-2020 10:25:56 :: [selenium_core.helpers.javascript.JavaScriptHelper - executeScript][INFO ] - ExecuteScript method is started - script is: document.body.style.zoom='100%'
+10-31-2020 10:25:56 :: [selenium_core.page_objects.LoginPage - clickOnSignInLink][INFO ] - clicked on sign in link...
+10-31-2020 10:25:58 :: [selenium_core.page_objects.LoginPage - enterEmailAddress][INFO ] - entering email address....1529686406836@gmail.com
+10-31-2020 10:25:58 :: [selenium_core.page_objects.LoginPage - enterPassword][INFO ] - entering password....password
+10-31-2020 10:25:58 :: [selenium_core.page_objects.LoginPage - clickOnSubmitButton][INFO ] - clicking on submit button...
+10-31-2020 10:25:58 :: [selenium_core.helpers.javascript.JavaScriptHelper - <init>][INFO ] - JavaScriptHelper has been initialized successfully..
+10-31-2020 10:25:58 :: [selenium_core.helpers.javascript.JavaScriptHelper - scrollDownVertically][INFO ] - ScrollDownVertically method is started..
+10-31-2020 10:25:58 :: [selenium_core.helpers.javascript.JavaScriptHelper - executeScript][INFO ] - ExecuteScript method is started - script is: window.scrollTo(0,document.body.scrollHeight)
+10-31-2020 10:26:00 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-31-2020 10:26:00 :: [selenium_core.helpers.wait.WaitHelper - waitForElementClickable][INFO ] - WaitForElementClickable method is started and waiting for : [[ChromeDriver: chrome on MAC (affd4a2ea601e09aa03f4779457adc1b)] -> xpath: //*[@id='block_top_menu']/ul/li[1]/a] element and set time for : 200 seconds
+10-31-2020 10:26:00 :: [selenium_core.helpers.wait.WaitHelper - waitForElementClickable][INFO ] - Element [[ChromeDriver: chrome on MAC (affd4a2ea601e09aa03f4779457adc1b)] -> xpath: //*[@id='block_top_menu']/ul/li[1]/a] is clickable now
+10-31-2020 10:26:00 :: [selenium_core.test_base.TestBase - getNavigationScreen][INFO ] - Capturing UI navigation screen..
+10-31-2020 10:26:00 :: [selenium_core.helpers.javascript.JavaScriptHelper - <init>][INFO ] - JavaScriptHelper has been initialized successfully..
+10-31-2020 10:26:00 :: [selenium_core.helpers.javascript.JavaScriptHelper - zoomInBy60Percentage][INFO ] - ZoomInBy60Percentage method is started..
+10-31-2020 10:26:00 :: [selenium_core.helpers.javascript.JavaScriptHelper - executeScript][INFO ] - ExecuteScript method is started - script is: document.body.style.zoom='60%'
+10-31-2020 10:26:00 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-31-2020 10:26:00 :: [selenium_core.helpers.javascript.JavaScriptHelper - <init>][INFO ] - JavaScriptHelper has been initialized successfully..
+10-31-2020 10:26:00 :: [selenium_core.helpers.javascript.JavaScriptHelper - zoomInBy100Percentage][INFO ] - ZoomInBy100Percentage method is started..
+10-31-2020 10:26:00 :: [selenium_core.helpers.javascript.JavaScriptHelper - executeScript][INFO ] - ExecuteScript method is started - script is: document.body.style.zoom='100%'
+10-31-2020 10:26:00 :: [selenium_core.helpers.assertion.VerificationHelper - <init>][INFO ] - VerificationHelper constructor is initialized..
+10-31-2020 10:28:01 :: [selenium_core.helpers.assertion.VerificationHelper - isDisplayed][ERROR] - Error, element is not present >>> 
+10-31-2020 10:28:01 :: [selenium_core.helpers.assertion.AssertionHelper - fail][INFO ] - Verify is fail..
+10-31-2020 10:28:02 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-31-2020 10:28:02 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Report:  Test failed  ******************************************************* >>>
+10-31-2020 10:31:06 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 159290353
+10-31-2020 10:31:06 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-31-2020 10:31:06 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-31-2020 10:31:06 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-31-2020 10:31:06 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-31-2020 10:31:11 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-31-2020 10:31:11 :: [selenium_core.helpers.wait.WaitHelper - waitForElementClickable][INFO ] - WaitForElementClickable method is started and waiting for : [[ChromeDriver: chrome on MAC (3f63a92c5df60ddd1f3a85d19e604534)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a] element and set time for : 200 seconds
+10-31-2020 10:31:11 :: [selenium_core.helpers.wait.WaitHelper - waitForElementClickable][INFO ] - Element [[ChromeDriver: chrome on MAC (3f63a92c5df60ddd1f3a85d19e604534)] -> xpath: //*[@id='header']/div[2]/div/div/nav/div[1]/a] is clickable now
+10-31-2020 10:31:11 :: [selenium_core.test_base.TestBase - getNavigationScreen][INFO ] - Capturing UI navigation screen..
+10-31-2020 10:31:11 :: [selenium_core.helpers.javascript.JavaScriptHelper - <init>][INFO ] - JavaScriptHelper has been initialized successfully..
+10-31-2020 10:31:11 :: [selenium_core.helpers.javascript.JavaScriptHelper - zoomInBy60Percentage][INFO ] - ZoomInBy60Percentage method is started..
+10-31-2020 10:31:11 :: [selenium_core.helpers.javascript.JavaScriptHelper - executeScript][INFO ] - ExecuteScript method is started - script is: document.body.style.zoom='60%'
+10-31-2020 10:31:11 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-31-2020 10:31:11 :: [selenium_core.helpers.javascript.JavaScriptHelper - <init>][INFO ] - JavaScriptHelper has been initialized successfully..
+10-31-2020 10:31:11 :: [selenium_core.helpers.javascript.JavaScriptHelper - zoomInBy100Percentage][INFO ] - ZoomInBy100Percentage method is started..
+10-31-2020 10:31:11 :: [selenium_core.helpers.javascript.JavaScriptHelper - executeScript][INFO ] - ExecuteScript method is started - script is: document.body.style.zoom='100%'
+10-31-2020 10:31:11 :: [selenium_core.page_objects.LoginPage - clickOnSignInLink][INFO ] - clicked on sign in link...
+10-31-2020 10:31:12 :: [selenium_core.page_objects.LoginPage - enterEmailAddress][INFO ] - entering email address....stasman9@mail.ru
+10-31-2020 10:31:12 :: [selenium_core.page_objects.LoginPage - enterPassword][INFO ] - entering password....123456789@
+10-31-2020 10:31:12 :: [selenium_core.page_objects.LoginPage - clickOnSubmitButton][INFO ] - clicking on submit button...
+10-31-2020 10:31:12 :: [selenium_core.helpers.javascript.JavaScriptHelper - <init>][INFO ] - JavaScriptHelper has been initialized successfully..
+10-31-2020 10:31:12 :: [selenium_core.helpers.javascript.JavaScriptHelper - scrollDownVertically][INFO ] - ScrollDownVertically method is started..
+10-31-2020 10:31:12 :: [selenium_core.helpers.javascript.JavaScriptHelper - executeScript][INFO ] - ExecuteScript method is started - script is: window.scrollTo(0,document.body.scrollHeight)
+10-31-2020 10:31:14 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-31-2020 10:31:14 :: [selenium_core.helpers.wait.WaitHelper - waitForElementClickable][INFO ] - WaitForElementClickable method is started and waiting for : [[ChromeDriver: chrome on MAC (3f63a92c5df60ddd1f3a85d19e604534)] -> xpath: //*[@id='block_top_menu']/ul/li[1]/a] element and set time for : 200 seconds
+10-31-2020 10:31:14 :: [selenium_core.helpers.wait.WaitHelper - waitForElementClickable][INFO ] - Element [[ChromeDriver: chrome on MAC (3f63a92c5df60ddd1f3a85d19e604534)] -> xpath: //*[@id='block_top_menu']/ul/li[1]/a] is clickable now
+10-31-2020 10:31:14 :: [selenium_core.test_base.TestBase - getNavigationScreen][INFO ] - Capturing UI navigation screen..
+10-31-2020 10:31:14 :: [selenium_core.helpers.javascript.JavaScriptHelper - <init>][INFO ] - JavaScriptHelper has been initialized successfully..
+10-31-2020 10:31:14 :: [selenium_core.helpers.javascript.JavaScriptHelper - zoomInBy60Percentage][INFO ] - ZoomInBy60Percentage method is started..
+10-31-2020 10:31:14 :: [selenium_core.helpers.javascript.JavaScriptHelper - executeScript][INFO ] - ExecuteScript method is started - script is: document.body.style.zoom='60%'
+10-31-2020 10:31:14 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Driver is null...
+10-31-2020 10:31:14 :: [selenium_core.helpers.javascript.JavaScriptHelper - <init>][INFO ] - JavaScriptHelper has been initialized successfully..
+10-31-2020 10:31:14 :: [selenium_core.helpers.javascript.JavaScriptHelper - zoomInBy100Percentage][INFO ] - ZoomInBy100Percentage method is started..
+10-31-2020 10:31:14 :: [selenium_core.helpers.javascript.JavaScriptHelper - executeScript][INFO ] - ExecuteScript method is started - script is: document.body.style.zoom='100%'
+10-31-2020 10:31:14 :: [selenium_core.helpers.assertion.VerificationHelper - <init>][INFO ] - VerificationHelper constructor is initialized..
+10-31-2020 10:31:14 :: [selenium_core.helpers.assertion.VerificationHelper - isDisplayed][INFO ] - Element is present >>> Welcome to your account. Here you can manage all of your personal information and orders.
+10-31-2020 10:31:14 :: [selenium_core.helpers.assertion.AssertionHelper - pass][INFO ] - Verify is pass..
+10-31-2020 10:31:14 :: [selenium_core.helpers.assertion.AssertionHelper - updateTestStatus][INFO ] - Test status pass
+10-31-2020 10:31:15 :: [selenium_core.test_base.TestBase - captureScreenShot][INFO ] - Taking a pass...
+10-31-2020 10:31:15 :: [selenium_core.test_base.TestBase - afterMethod][INFO ] - <<< Adding ScreenShot to report file ... >>>
+10-31-2020 10:48:26 :: [selenium_core.test_base.TestBase - setUpDriver][INFO ] - Initialize Web driver hash-code: 1263668904
+10-31-2020 10:48:26 :: [selenium_core.helpers.wait.WaitHelper - <init>][INFO ] - WaitHelper method is started..
+10-31-2020 10:48:26 :: [selenium_core.helpers.wait.WaitHelper - setImplicitWait][INFO ] - SetImplicitWait method is started and has been set to: 120 seconds
+10-31-2020 10:48:26 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - PageLoadTime is started and waiting for page to load for : 100 seconds
+10-31-2020 10:48:26 :: [selenium_core.helpers.wait.WaitHelper - pageLoadTime][INFO ] - Page is loaded by time: SECONDS second
+10-31-2020 10:48:30 :: [selenium_core.test_base.TestBase - getExcelData][INFO ] - excel location /Users/stanislav/IdeaProjects/selnium_core_full_automationsrc/main/resources/configfile/testData.xlsx

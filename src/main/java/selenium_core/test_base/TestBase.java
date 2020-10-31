@@ -21,6 +21,7 @@ import selenium_core.helpers.browser_configurations.IExplorerBrowser;
 import selenium_core.helpers.browser_configurations.config.ConfigReader;
 import selenium_core.helpers.browser_configurations.config.ObjectReader;
 import selenium_core.helpers.browser_configurations.config.PropertyReader;
+import selenium_core.helpers.excel.ExcelHelper;
 import selenium_core.helpers.javascript.JavaScriptHelper;
 import selenium_core.helpers.logger.MyLogger;
 import selenium_core.helpers.resource.ResourceHelper;
@@ -228,7 +229,14 @@ public class TestBase  // TestNg annotation reporting.html
         }
     }
     //----------------------------------------------------------------------------------------------------------------||
-
+    public Object[][] getExcelData(String excelName, String sheetName)
+    {
+        String excelLocation = ResourceHelper.getRecoursePath("src/main/resources/configfile/")+excelName;
+        log.info("excel location "+excelLocation);
+        ExcelHelper excelHelper = new ExcelHelper();
+        Object[][] data = excelHelper.getExcelData(excelLocation, sheetName);
+        return data;
+    }
     //----------------------------------------------------------------------------------------------------------------||
 
 }

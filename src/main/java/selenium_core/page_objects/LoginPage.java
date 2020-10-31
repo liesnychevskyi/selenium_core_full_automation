@@ -50,7 +50,9 @@ public class LoginPage
     @FindBy(xpath="//*[@id='header']/div[2]/div/div/nav/div[2]/a")
     WebElement logout;
 
-    public void LoginPage(WebDriver driver)
+
+
+    public LoginPage(WebDriver driver)
     {
         this.driver = driver;
         PageFactory.initElements(driver, this);
