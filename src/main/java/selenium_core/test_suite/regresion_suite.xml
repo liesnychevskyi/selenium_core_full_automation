@@ -9,25 +9,25 @@
 
     <test name="Test 1">
         <classes>
-            <class name="selenium_core.test_scripts.Test_1"></class>
+            <class name="selenium_core.test_scripts.example_scripts.Test_1"></class>
         </classes>
     </test>
 
     <test name="Test 2">
         <classes>
-            <class name="selenium_core.test_scripts.Test_2"></class>
+            <class name="selenium_core.test_scripts.example_scripts.Test_2"></class>
         </classes>
     </test>
 
     <test name="Test 3">
         <classes>
-            <class name="selenium_core.test_scripts.Test_3"></class>
+            <class name="selenium_core.test_scripts.example_scripts.Test_3"></class>
         </classes>
     </test>
 
     <test name="Test Report Example">
         <classes>
-            <class name="selenium_core.test_scripts.TestReportExample"></class>
+            <class name="selenium_core.test_scripts.example_scripts.TestReportExample"></class>
         </classes>
     </test>
 </suite>

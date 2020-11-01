@@ -14,20 +14,20 @@ import selenium_core.test_base.TestBase;
 
 public class NavigationMenu
 {
+    //----------------------------------------------------------------------------------------------------------------||
     private WebDriver driver;
     private final Logger log = MyLogger.getLogger(NavigationMenu.class);
     WaitHelper waitHelper;
-
+    //----------------------------------------------------------------------------------------------------------------||
     @FindBy(xpath="//*[@id='block_top_menu']/ul/li[1]/a")
     public WebElement womenMenu;
 
     @FindBy(xpath="//*[@id='block_top_menu']/ul/li[2]/a")
     public WebElement dressesMenu;
 
-
     @FindBy(xpath="//*[@id='block_top_menu']/ul/li[3]/a")
     public WebElement tshirtsMenu;
-
+    //----------------------------------------------------------------------------------------------------------------||
     public NavigationMenu(WebDriver driver)
     {
         this.driver = driver;
@@ -37,7 +37,7 @@ public class NavigationMenu
         TestBase.logExtentReport("NavigationMenu object created");
         new TestBase().getNavigationScreen(driver);
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public void mouseOver(String data)
     {
         log.info("doing mouse over on :"+data);
@@ -45,7 +45,7 @@ public class NavigationMenu
         Actions action = new Actions(driver);
         action.moveToElement(driver.findElement(By.xpath("//*[contains(text(),'"+data+"')]"))).build().perform();
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public ProductCategoryPage clickOnItem(String data)
     {
         log.info("clickin on :"+data);
@@ -53,7 +53,7 @@ public class NavigationMenu
         driver.findElement(By.xpath("//*[contains(text(),'"+data+"')]")).click();
         return new ProductCategoryPage(driver);
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public ProductCategoryPage clickOnMenu(WebElement element)
     {
         log.info("clickin on : "+element.getText());
@@ -61,4 +61,5 @@ public class NavigationMenu
         element.click();
         return new ProductCategoryPage(driver);
     }
+    //----------------------------------------------------------------------------------------------------------------||
 }

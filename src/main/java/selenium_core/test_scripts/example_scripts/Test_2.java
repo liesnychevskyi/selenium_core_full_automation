@@ -1,12 +1,12 @@
-package selenium_core.test_scripts;
+package selenium_core.test_scripts.example_scripts;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Test_1
+public class Test_2
 {
     @Test
-    public void loginTest()
+    public void enterTest()
     {
         Assert.assertTrue(true);
     }

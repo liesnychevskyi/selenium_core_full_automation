@@ -1,4 +1,4 @@
-package selenium_core.test_scripts;
+package selenium_core.test_scripts.login;
 
 import org.apache.log4j.Logger;
 import org.testng.SkipException;
@@ -12,26 +12,28 @@ import selenium_core.page_objects.LoginPage;
 import selenium_core.page_objects.NavigationMenu;
 import selenium_core.test_base.TestBase;
 
-public class LoginTestDDaproache extends TestBase
+public class LoginTestDataDrivenApproachTest extends TestBase
 {
-    private final Logger log = MyLogger.getLogger(LoginTestDDaproache.class);
-
+    //----------------------------------------------------------------------------------------------------------------||
+    private final Logger log = MyLogger.getLogger(LoginTestDataDrivenApproachTest.class);
+    //----------------------------------------------------------------------------------------------------------------||
     LoginPage login;
     NavigationMenu navigationMenu;
-
-
+    //----------------------------------------------------------------------------------------------------------------||
     @DataProvider(name="testData")
     public Object[][] testData()
     {
         Object[][] data = getExcelData("testData.xlsx", "loginData");
         return data;
     }
+    //----------------------------------------------------------------------------------------------------------------||
     @BeforeClass
     public void beforeClass()
     {
         getApplicationUrl(ObjectReader.reader.getApplicationUrl());
         login = new LoginPage(driver);
     }
+    //----------------------------------------------------------------------------------------------------------------||
     @Test(dataProvider="testData")
     public void loginTest(String userName, String password, String runMode){
 
@@ -44,4 +46,5 @@ public class LoginTestDDaproache extends TestBase
         AssertionHelper.updateTestStatus(status);
         login.logout();
     }
+    //----------------------------------------------------------------------------------------------------------------||
 }

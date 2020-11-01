@@ -11,13 +11,14 @@ public class PropertyReader implements ConfigReader
     //----------------------------------------------------------------------------------------------------------------||
     private static FileInputStream file;
     private static Properties OR;
-
+    //----------------------------------------------------------------------------------------------------------------||
     // Constructor
     public PropertyReader()  // Load the property file to the memory
     {
-    //----------------------------------------------------------------------------------------------------------------||
-    //path for windows//String filePath = ResourceHelper.getRecoursePath("\\src\\main\\resources\\config.properties");
-        String filePath = ResourceHelper.getRecoursePath("/src/main/resources/config.properties");
+        //path for windows//String filePath = ResourceHelper.getRecoursePath("\\src\\main\\resources\\config_firefox.properties");
+        //String filePath = ResourceHelper.getRecoursePath("/src/main/resources/config_firefox.properties");
+        String filePath = ResourceHelper.getRecoursePath("/src/main/resources/config_chrome.properties");
+        //String filePath = ResourceHelper.getRecoursePath("/src/main/resources/config_safari.properties");
         try
         {
             file = new FileInputStream(new File(filePath));

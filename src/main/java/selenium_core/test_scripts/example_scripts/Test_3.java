@@ -1,4 +1,4 @@
-package selenium_core.test_scripts;
+package selenium_core.test_scripts.example_scripts;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

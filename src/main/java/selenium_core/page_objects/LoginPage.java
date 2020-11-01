@@ -15,11 +15,12 @@ import selenium_core.test_base.TestBase;
 
 public class LoginPage
 {
+    //----------------------------------------------------------------------------------------------------------------||
     private WebDriver driver;
     private final Logger log = MyLogger.getLogger(LoginPage.class);
-
+    //----------------------------------------------------------------------------------------------------------------||
     WaitHelper waitHelper;
-
+    //----------------------------------------------------------------------------------------------------------------||
     @FindBy(xpath="//*[@id='header']/div[2]/div/div/nav/div[1]/a")
     WebElement signin;
 
@@ -49,40 +50,38 @@ public class LoginPage
 
     @FindBy(xpath="//*[@id='header']/div[2]/div/div/nav/div[2]/a")
     WebElement logout;
-
-
-
+    //----------------------------------------------------------------------------------------------------------------||
     public LoginPage(WebDriver driver)
     {
         this.driver = driver;
-        PageFactory.initElements(driver, this);
-        waitHelper = new WaitHelper(driver);
-        waitHelper.waitForElementClickable(signin, ObjectReader.reader.getExplicitWait());
-        new TestBase().getNavigationScreen(driver);
-        TestBase.logExtentReport("Login Page Object Created");
+        PageFactory.initElements(driver, this); // Elements of page are read
+        waitHelper = new WaitHelper(driver); // Waite driver is started
+        waitHelper.waitForElementClickable(signin, ObjectReader.reader.getExplicitWait()); // Waite page is loaded
+        new TestBase().getNavigationScreen(driver); // Capture screenshot every navigated screen
+        TestBase.logExtentReport("Login Page Object Created"); //
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public void clickOnSignInLink()
     {
         log.info("clicked on sign in link...");
         logExtentReport("clicked on sign in link...");
         signin.click();
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public void enterEmailAddress(String emailAddress)
     {
         log.info("entering email address...."+emailAddress);
         logExtentReport("entering email address...."+emailAddress);
         this.emailAddress.sendKeys(emailAddress);
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public void enterPassword(String password)
     {
         log.info("entering password...."+password);
         logExtentReport("entering password...."+password);
         this.password.sendKeys(password);
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public NavigationMenu clickOnSubmitButton()
     {
         log.info("clicking on submit button...");
@@ -93,25 +92,25 @@ public class LoginPage
         submitLogin.click();
         return new NavigationMenu(driver);
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public boolean verifySuccessLoginMsg()
     {
         return new VerificationHelper(driver).isDisplayed(successMsgObject);
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public void enterRegistrationEmail()
     {
         String email = System.currentTimeMillis()+"@gmail.com";
         log.info("entering registration email.."+email);
         registrationEmailAddress.sendKeys(email);
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public RegistrationPage clickOnCreateAnAccount()
     {
         createAnAccount.click();
         return new RegistrationPage(driver);
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public void loginToApplication(String emailAddress, String password)
     {
         clickOnSignInLink();
@@ -119,17 +118,17 @@ public class LoginPage
         enterPassword(password);
         clickOnSubmitButton();
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public void logout()
     {
         logout.click();
         log.info("clicked on logout link");
         waitHelper.waitForElementClickable(signin, ObjectReader.reader.getExplicitWait());
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public void logExtentReport(String s1)
     {
         TestBase.test.log(Status.INFO, s1);
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
 }

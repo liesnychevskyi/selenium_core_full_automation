@@ -1,4 +1,4 @@
-package selenium_core.test_scripts;
+package selenium_core.test_scripts.login;
 
 import org.apache.log4j.Logger;
 import org.testng.annotations.Test;

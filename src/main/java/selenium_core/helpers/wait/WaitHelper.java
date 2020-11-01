@@ -70,6 +70,14 @@ public class WaitHelper
         log.info("Element " + element.toString() + " is visible now");
     }
     //----------------------------------------------------------------------------------------------------------------||
+    public void waitForElement(WebElement element, int timeOutInSeconds)
+    {
+        log.info("waiting for :" + element.toString() + " for :" + timeOutInSeconds + " seconds");
+        WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
+        wait.until(ExpectedConditions.visibilityOf(element));
+        log.info("element is visible now");
+    }
+    //----------------------------------------------------------------------------------------------------------------||
     /**
      * This method will make sure element is clickable
      * @param element
