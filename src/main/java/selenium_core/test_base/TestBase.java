@@ -41,7 +41,7 @@ public class TestBase  // TestNg annotation reporting.html
     //----------------------------------------------------------------------------------------------------------------||
     public static ExtentReports extentReports;
     public static ExtentTest test;
-    private Logger log = MyLogger.getLogger(selenium_core.test_base.TestBase.class);
+    private Logger log = MyLogger.getLogger(TestBase.class);
     public WebDriver driver;
     public static File reportDirectory;
     //----------------------------------------------------------------------------------------------------------------||
@@ -70,13 +70,14 @@ public class TestBase  // TestNg annotation reporting.html
     @AfterClass
     public void afterClass()
     {
-        shutDown();
+        driverClose();
+        driverQuit();
     }
     //----------------------------------------------------------------------------------------------------------------||
     @BeforeMethod
     public void beforeMethod(Method method)
     {
-        test.log(Status.INFO, method.getName() + " test started...");
+        test.log(Status.INFO, method.getName() + " test started...(from --> @BeforeMethod)");
     }
     //----------------------------------------------------------------------------------------------------------------||
     @AfterMethod
@@ -212,12 +213,11 @@ public class TestBase  // TestNg annotation reporting.html
         logExtentReport("Navigate to ... " + url);
     }
     //----------------------------------------------------------------------------------------------------------------||
-    public void shutDown()
+    public void driverQuit()
     {
         if(driver != null)
         {
             driver.quit();
-            //driver.close();
         }
     }
     //----------------------------------------------------------------------------------------------------------------||

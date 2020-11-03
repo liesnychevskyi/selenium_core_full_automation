@@ -144,10 +144,12 @@ public class RegistrationPage
     {
         List<WebElement> days = driver.findElements(By.xpath("//*[@id='days']/option"));
         Iterator<WebElement> itr = days.iterator();
-        while (itr.hasNext()) {
+        while (itr.hasNext())
+        {
             WebElement c = itr.next();
             String text = c.getText().trim().toString();
-            if (text.equals(day)) {
+            if (text.equals(day))
+            {
                 TestBase.logExtentReport("selecting date as: "+day);
                 c.click();
                 break;

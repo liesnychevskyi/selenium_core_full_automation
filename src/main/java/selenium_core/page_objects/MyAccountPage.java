@@ -47,15 +47,15 @@ public class MyAccountPage
     public void clickOnWishLists()
     {
         wishLists.click();
-        log.info("clciked on "+wishLists.getText());
-        TestBase.test.log(Status.INFO, "clciked on "+wishLists.getText());
+        log.info("clicked on " + wishLists.getText());
+        TestBase.test.log(Status.INFO, "clicked on "+wishLists.getText());
     }
     //----------------------------------------------------------------------------------------------------------------||
     public void clickOnOrderHistoryAndDetails()
     {
         OrderHistoryAndDetails.click();
-        log.info("clciked on "+OrderHistoryAndDetails.getText());
-        TestBase.test.log(Status.INFO, "clciked on "+OrderHistoryAndDetails.getText());
+        log.info("clicked on "+OrderHistoryAndDetails.getText());
+        TestBase.test.log(Status.INFO, "clicked on "+OrderHistoryAndDetails.getText());
     }
     //----------------------------------------------------------------------------------------------------------------||
     public  boolean isYourAccountPageMessage()
