@@ -21,11 +21,11 @@ import selenium_core.test_base.TestBase;
 
 public class ProductCategoryPage
 {
+    //----------------------------------------------------------------------------------------------------------------||
     private WebDriver driver;
     private final Logger log = MyLogger.getLogger(ProductCategoryPage.class);
-
     WaitHelper waitHelper;
-
+    //----------------------------------------------------------------------------------------------------------------||
     @FindBy(xpath="//*[@id='layered_block_left']/p")
     public WebElement catalogTextObj;
 
@@ -45,19 +45,18 @@ public class ProductCategoryPage
     public WebElement sortBy;
 
     @FindBy(xpath="//*[@id='center_column']/ul/li/div/div[2]/div/span[1]")
-    List<WebElement> allpriceElements;
-
-
+    List<WebElement> allPriceElements;
+    //----------------------------------------------------------------------------------------------------------------||
     public ProductCategoryPage(WebDriver driver)
     {
         this.driver = driver;
         PageFactory.initElements(driver, this);
         waitHelper = new WaitHelper(driver);
         waitHelper.waitForElementClickable(catalogTextObj, ObjectReader.reader.getExplicitWait());
-        TestBase.logExtentReport("ProductCategoryPage object creatd...");
+        TestBase.logExtentReport("ProductCategoryPage object created...");
         new TestBase().getNavigationScreen(driver);
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public void mouseOverOnProduct(int number)
     {
         String fPart = "//*[@id='center_column']/ul/li[";
@@ -66,19 +65,19 @@ public class ProductCategoryPage
         log.info("doing mouse over on: "+number+"..product");
         action.moveToElement(driver.findElement(By.xpath(fPart+number+sPart))).build().perform();
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public void clickOnAddToCart()
     {
-        log.info("clickin on add to cart");
+        log.info("clicking on add to cart");
         addToCart.click();
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public void clickOnProceedTocheckOut()
     {
-        log.info("clickin on :"+proceedToCheckOut.getText());
+        log.info("clicking on :"+proceedToCheckOut.getText());
         proceedToCheckOut.click();
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public void selectColor(String data)
     {
         new JavaScriptHelper(driver).scrollIntoView(driver.findElement(By.xpath("//a[contains(text(),'"+data+"')]/parent::*/preceding-sibling::input[1]")));
@@ -92,72 +91,77 @@ public class ProductCategoryPage
             e.printStackTrace();
         }
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public void selectSmallSize()
     {
         log.info("selecting small size..");
         driver.findElement(By.xpath("//*[@id='layered_id_attribute_group_1']")).click();
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public void selectMediumSize()
     {
         log.info("selecting Medium size..");
-        try {
+        try
+        {
             boolean selected = driver.findElement(By.xpath("//*[@id='layered_id_attribute_group_2']']")).isSelected();
             if (!selected)
             {
                 driver.findElement(By.xpath("//*[@id='layered_id_attribute_group_2']']")).click();
                 log.info("checkbox is checked..");
             }
-        } catch (Exception e)
+        }
+        catch (Exception e)
         {
             log.info("checkbox was already checked..");
         }
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public void selectLSize()
     {
         log.info("selecting Large size..");
-        try {
+        try
+        {
             boolean selected = driver.findElement(By.xpath("//*[@id='layered_id_attribute_group_3']")).isSelected();
             if (!selected)
             {
                 driver.findElement(By.xpath("//*[@id='layered_id_attribute_group_3']")).click();
                 log.info("checkbox is checked..");
             }
-        } catch (Exception e)
+        }
+        catch (Exception e)
         {
             log.info("checkbox was already checked..");
         }
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public void selectFirstProduct()
     {
         Actions obj = new Actions(driver);
-        log.info("performning mouse over on first product of page..");
-        TestBase.logExtentReport("performning mouse over on first product of page..");
+        log.info("performing mouse over on first product of page..");
+        TestBase.logExtentReport("performing mouse over on first product of page..");
         obj.moveToElement(totalProducts.get(0)).build().perform();
         log.info("clicking on add to basket..");
         TestBase.logExtentReport("clicking on add to basket..");
         addToCart.click();
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public int getTotalProducts()
     {
         return totalProducts.size();
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public List<WebElement> getAllProductsPrice()
     {
-        return allpriceElements;
+        return allPriceElements;
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public void selectSortByFilter(String dataToSelect)
     {
         DropDownHelper dropdown = new DropDownHelper(driver);
-        dropdown.selectUsingVisibleText(sortBy, dataToSelect);
+        //dropdown.selectUsingVisibleText(sortBy, dataToSelect);
+        dropdown.selectUsingIndex(sortBy,0);
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public boolean verifyArrayHasAscendingData(ArrayList<Integer> array)
     {
         for (int i = 0; i < array.size() - 1; i++)
@@ -177,7 +181,7 @@ public class ProductCategoryPage
         }
         return true;
     }
-
+    //----------------------------------------------------------------------------------------------------------------||
     public ArrayList<Integer> getPriceMassagedData(Iterator<WebElement> itr)
     {
         ArrayList<Integer> array = new ArrayList<Integer>();
@@ -195,4 +199,5 @@ public class ProductCategoryPage
         }
         return array;
     }
+    //----------------------------------------------------------------------------------------------------------------||
 }

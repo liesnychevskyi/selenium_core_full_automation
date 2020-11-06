@@ -48,16 +48,16 @@ public class NavigationMenu
     //----------------------------------------------------------------------------------------------------------------||
     public ProductCategoryPage clickOnItem(String data)
     {
-        log.info("clickin on :"+data);
-        TestBase.logExtentReport("clickin on :"+data);
+        log.info("clicking on :"+data);
+        TestBase.logExtentReport("clicking on :"+data);
         driver.findElement(By.xpath("//*[contains(text(),'"+data+"')]")).click();
         return new ProductCategoryPage(driver);
     }
     //----------------------------------------------------------------------------------------------------------------||
     public ProductCategoryPage clickOnMenu(WebElement element)
     {
-        log.info("clickin on : "+element.getText());
-        TestBase.logExtentReport("clickin on : "+element.getText());
+        log.info("clicking on : "+element.getText());
+        TestBase.logExtentReport("clicking on : "+element.getText());
         element.click();
         return new ProductCategoryPage(driver);
     }

@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import selenium_core.helpers.assertion.AssertionHelper;
 import selenium_core.helpers.browser_configurations.config.ObjectReader;
+import selenium_core.helpers.javascript.JavaScriptHelper;
 import selenium_core.helpers.logger.MyLogger;
 import selenium_core.page_objects.NavigationMenu;
 import selenium_core.page_objects.ProductCategoryPage;
@@ -14,37 +15,37 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class VerifyLowestFirstPriceFilter extends TestBase
+public class VerifyLowestFirstPriceFilterTest extends TestBase
 {
     //----------------------------------------------------------------------------------------------------------------||
-    private final Logger log = MyLogger.getLogger(VerifyLowestFirstPriceFilter.class);
+    private final Logger log = MyLogger.getLogger(VerifyLowestFirstPriceFilterTest.class);
     //----------------------------------------------------------------------------------------------------------------||
     @Test
-    public void verifyLowestFirstPriceListInProduct_deatilsPage() throws InterruptedException
+    public void verifyLowestFirstPriceListInProduct_detailsPage() throws InterruptedException
     {
-
         getApplicationUrl(ObjectReader.reader.getApplicationUrl());
-
+        Thread.sleep(3000);
         NavigationMenu navigationMenu = new NavigationMenu(driver);
-
+        Thread.sleep(3000);
         ProductCategoryPage pcategoryPage = navigationMenu.clickOnMenu(navigationMenu.womenMenu);
+        JavaScriptHelper javaScriptHelper = new JavaScriptHelper(driver);
+        javaScriptHelper.scrollDownByPixel(600);
+
         // select price filter
         pcategoryPage.selectSortByFilter("Price: Lowest first");
-
+        Thread.sleep(10000);
         // wait for some time to make sure price is sorted.
-        Thread.sleep(8000);
-
         List<WebElement> price = pcategoryPage.getAllProductsPrice();
-
         ArrayList<Integer> array = new ArrayList<Integer>();
-
         Iterator<WebElement> itr = price.iterator();
+        Thread.sleep(10000);
 
         ArrayList<Integer> data = pcategoryPage.getPriceMassagedData(itr);
         boolean status = pcategoryPage.verifyArrayHasAscendingData(data);
         AssertionHelper.updateTestStatus(status);
-    //----------------------------------------------------------------------------------------------------------------||
-	/*
+        //----------------------------------------------------------------------------------------------------------------||
+	/* verifyArrayHasAscendingData method from ProductCategoryPage
+
 		//price comes in "$16.40" format
 		// remove $ from beginning and change to int for sorting order verification
 		// Store it in array list
@@ -58,6 +59,7 @@ public class VerifyLowestFirstPriceFilter extends TestBase
 				array.add(productPrice);
 			}
 		}
+// getPriceMassagedData method from ProductCategoryPage
 
         log.info(array);
         //[16, 16, 26, 27, 28, 30, 50]

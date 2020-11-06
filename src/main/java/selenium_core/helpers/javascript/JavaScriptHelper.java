@@ -75,13 +75,13 @@ public class JavaScriptHelper
     public void scrollDownByPixel(int pixel)
     {
         log.info("ScrollDownByPixel method is started..");
-        executeScript("window.scrollBY(0, "+pixel+")");
+        executeScript("window.scrollBy(0, "+pixel+")");
     }
     //----------------------------------------------------------------------------------------------------------------||
     public void scrollUpnByPixel(int pixel)
     {
         log.info("ScrollUpnByPixel method is started..");
-        executeScript("window.scrollBY(0,-"+pixel+")");
+        executeScript("window.scrollBy(0,-"+pixel+")");
     }
     //----------------------------------------------------------------------------------------------------------------||
     public void zoomInBy100Percentage()

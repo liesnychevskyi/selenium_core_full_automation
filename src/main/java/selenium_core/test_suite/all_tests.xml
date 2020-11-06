@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="all_tests suite">
+    <listeners>
+<!--        <listener class-name="selenium_core.helpers.listener.RetryListener"></listener>-->
+        <listener class-name="selenium_core.helpers.listener.ExtentListener"></listener>
+    </listeners>
+
+    <test name="LoginTest">
+        <classes>
+            <class name="selenium_core.test_scripts.login.LoginTest"></class>
+        </classes>
+    </test>
+
+    <test name="RegistrationTest">
+        <classes>
+            <class name="selenium_core.test_scripts.registration.RegistrationTest"></class>
+        </classes>
+    </test>
+
+    <test name="VerifyLowestFirstPriceFilterTest">
+        <classes>
+            <class name="selenium_core.test_scripts.productDetailsPage.VerifyLowestFirstPriceFilterTest"></class>
+        </classes>
+    </test>
+
+    <test name="VerifyLowestFirstPriceFilter">
+        <classes>
+            <class name="selenium_core.test_scripts.productDetailsPage.VerifyProductCountsTest"></class>
+        </classes>
+    </test>
+</suite>
