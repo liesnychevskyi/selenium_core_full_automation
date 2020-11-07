@@ -35,7 +35,8 @@ public class ExcelHelper
             int totalColumn = sheet.getRow(0).getLastCellNum();
             System.out.println("Total column is: " + totalColumn);
             //--------------------------------------------------------------------------------------------------------||
-            dataSets = new Object[totalRow+1][totalColumn]; ////////////////////////////////////////////////////////////
+            //dataSets = new Object[totalRow+1][totalColumn]; ////////////////////////////////////////////////////////////
+            dataSets = new Object[totalRow][totalColumn-1];
             //--------------------------------------------------------------------------------------------------------||
             //Iterate through each Row one by one
             Iterator<Row> rowIterator = sheet.iterator();
@@ -49,22 +50,34 @@ public class ExcelHelper
                 int j = 0;
                 while (cellIterator.hasNext())
                 {
-                    j++;
+                    //j++;
+
                     Cell cell = cellIterator.next();
+                    //===============================//
+                    if(cell.getStringCellValue().contains("Start"))
+                    {
+                        i = 0;
+                        break;
+                    }
+                    //===============================//
 
                     switch(cell.getCellTypeEnum())
                     {
                         case STRING:
-                            dataSets[i-1][j-1] = cell.getStringCellValue();
+                            dataSets[i-1][j++] = cell.getStringCellValue();
+                            //dataSets[i-1][j-1] = cell.getStringCellValue();
                             break;
                         case NUMERIC:
-                            dataSets[i-1][j-1] = cell.getNumericCellValue();
+                            dataSets[i-1][j++] = cell.getNumericCellValue();
+                            //dataSets[i-1][j-1] = cell.getNumericCellValue();
                             break;
                         case BOOLEAN:
-                            dataSets[i-1][j-1] = cell.getBooleanCellValue();
+                            dataSets[i-1][j++] = cell.getBooleanCellValue();
+                            //dataSets[i-1][j-1] = cell.getBooleanCellValue();
                             break;
                         case FORMULA:
-                            dataSets[i-1][j-1] = cell.getCellFormula();
+                            dataSets[i-1][j++] = cell.getCellFormula();
+                            //dataSets[i-1][j-1] = cell.getCellFormula();
                             break;
                         default:
                             System.out.println("No matching DATA TYPE FOUND..");

@@ -55,6 +55,7 @@ public class PropertyReader implements ConfigReader
        return selenium_core.helpers.browser_configurations.BrowserType.valueOf(OR.getProperty("browserType"));
     }
     //----------------------------------------------------------------------------------------------------------------||
+    // To read data from config.file 49 lesson
     @Override
     public String getApplicationUrl()
     {
@@ -62,6 +63,8 @@ public class PropertyReader implements ConfigReader
         return OR.getProperty("applicationUrl");
     }
 //    //--------------------------------------------------------------------------------------------------------------||
+//    We can read the data from POM.xml
+
 //    @Override
 //    public String getApplicationUrl()
 //    {
@@ -70,6 +73,13 @@ public class PropertyReader implements ConfigReader
 //        return System.getProperty("applicationUrl");
 //    }
 //  //----------------------------------------------------------------------------------------------------------------||
+//@Override
+//public String getUserName()
+//{
+//    if(System.getProperty("userName") != null)
+//        System.out.println(OR.getProperty("userName"));
+//    return System.getProperty("userName");
+//}
     @Override
     public String getUserName()
     {
@@ -77,6 +87,14 @@ public class PropertyReader implements ConfigReader
         return OR.getProperty("userName");
     }
     //----------------------------------------------------------------------------------------------------------------||
+//@Override
+//public String getPassword()
+//{
+//    if(System.getProperty("password") != null)
+//        System.out.println(OR.getProperty("password"));
+//    return System.getProperty("password");
+//}
+
     @Override
     public String getPassword()
     {

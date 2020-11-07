@@ -53,6 +53,7 @@ public class TestBase  // TestNg annotation reporting.html
         //reportDirectory = new File(ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\screenshots\\"));
         reportDirectory = new File(ResourceHelper.getRecoursePath("/src/main/java/selenium_core/screenshots"));
         setUpDriver(ObjectReader.reader.getBrowserType()); // Launch the browser + and browser type
+        test = extentReports.createTest(getClass().getName());
     }
     //----------------------------------------------------------------------------------------------------------------||
     @BeforeSuite
@@ -61,11 +62,11 @@ public class TestBase  // TestNg annotation reporting.html
         extentReports = ExtentManager.getInstance();
     }
     //----------------------------------------------------------------------------------------------------------------||
-    @BeforeClass
-    public void beforeClass()
-    {
-        test = extentReports.createTest(getClass().getName());
-    }
+    //@BeforeClass
+    //public void beforeClass()
+    //{
+    //
+    //}
     //----------------------------------------------------------------------------------------------------------------||
     @AfterClass
     public void afterClass()
@@ -231,7 +232,7 @@ public class TestBase  // TestNg annotation reporting.html
     //----------------------------------------------------------------------------------------------------------------||
     public Object[][] getExcelData(String excelName, String sheetName)
     {
-        String excelLocation = ResourceHelper.getRecoursePath("src/main/resources/configfile/")+excelName;
+        String excelLocation = ResourceHelper.getRecoursePath("/src/main/java/selenium_core/excel_sheets_data/")+excelName;
         log.info("excel location "+excelLocation);
         ExcelHelper excelHelper = new ExcelHelper();
         Object[][] data = excelHelper.getExcelData(excelLocation, sheetName);

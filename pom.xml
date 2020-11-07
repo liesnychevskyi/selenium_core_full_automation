@@ -25,9 +25,25 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${maven_surefire_plugin.version}</version>
                 <configuration>
+                    <!-- We can supply data to runtime scripts =============================-->
+                    <systemPropertyVariables>
+<!--                        <property>-->
+<!--                            <name>userName</name>-->
+<!--                            <value>${userName}</value>-->
+<!--                        </property>-->
+<!--                        <property>-->
+<!--                            <name>password</name>-->
+<!--                            <value>${password}</value>-->
+<!--                        </property>-->
+                        <property>
+                            <name>url</name>
+                            <value>${url}</value>
+                        </property>
+                    </systemPropertyVariables>
+                    <!--=============================================================== -->
                     <suiteXmlFiles>
                         <!--                        <suiteXmlFiles>.testngSingle.xml</suiteXmlFiles>-->
-                        <suiteXmlFiles>testngSuite.xml</suiteXmlFiles>
+                        <suiteXmlFiles>src/main/java/selenium_core/test_suite/all_tests.xml</suiteXmlFiles>
                         <!--                        <suiteXmlFiles>zaleniumtest.xml</suiteXmlFiles>-->
                     </suiteXmlFiles>
                 </configuration>

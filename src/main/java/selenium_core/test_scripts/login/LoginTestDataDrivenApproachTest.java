@@ -23,7 +23,7 @@ public class LoginTestDataDrivenApproachTest extends TestBase
     @DataProvider(name="testData")
     public Object[][] testData()
     {
-        Object[][] data = getExcelData("testData.xlsx", "loginData");
+        Object[][] data = getExcelData("selenium_test_data.xlsx", "loginData");
         return data;
     }
     //----------------------------------------------------------------------------------------------------------------||
