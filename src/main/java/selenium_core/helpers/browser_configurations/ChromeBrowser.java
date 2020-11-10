@@ -41,7 +41,7 @@ public class ChromeBrowser
     //----------------------------------------------------------------------------------------------------------------||
         else if(System.getProperty("os.name").contains("Windows"))
         {
-            System.setProperty("webdriver.chrome.driver", ResourceHelper.getRecoursePath("\\src\\main\\java\\core\\drivers\\chromedriver.exe"));
+            System.setProperty("webdriver.chrome.driver", ResourceHelper.getRecoursePath("\\src\\main\\java\\selenium_core\\drivers\\chromedriver.exe"));
            // return new ChromeDriver(cap);
             return new ChromeDriver();
         }
