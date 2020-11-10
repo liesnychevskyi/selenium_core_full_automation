@@ -19,15 +19,15 @@
         </classes>
     </test>
 
-    <test name="VerifyLowestFirstPriceFilterTest">
-        <classes>
-            <class name="selenium_core.test_scripts.productDetailsPage.VerifyLowestFirstPriceFilterTest"></class>
-        </classes>
-    </test>
-
-<!--    <test name="VerifyLowestFirstPriceFilter">-->
+<!--    <test name="VerifyLowestFirstPriceFilterTest">-->
 <!--        <classes>-->
-<!--            <class name="selenium_core.test_scripts.productDetailsPage.VerifyProductCountsTest"></class>-->
+<!--            <class name="selenium_core.test_scripts.productDetailsPage.VerifyLowestFirstPriceFilterTest"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
+
+    <test name="VerifyLowestFirstPriceFilter">
+        <classes>
+            <class name="selenium_core.test_scripts.productDetailsPage.VerifyProductCountsTest"></class>
+        </classes>
+    </test>
 </suite>
