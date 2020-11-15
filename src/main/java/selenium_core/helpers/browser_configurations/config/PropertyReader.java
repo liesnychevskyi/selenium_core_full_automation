@@ -17,8 +17,9 @@ public class PropertyReader implements ConfigReader
     {
         //path for windows//String filePath = ResourceHelper.getRecoursePath("\\src\\main\\resources\\config_firefox.properties");
         //String filePath = ResourceHelper.getRecoursePath("/src/main/resources/config_firefox.properties");
-        String filePath = ResourceHelper.getRecoursePath("/src/main/resources/config_chrome.properties");
+        //String filePath = ResourceHelper.getRecoursePath("/src/main/resources/config_chrome.properties");
         //String filePath = ResourceHelper.getRecoursePath("/src/main/resources/config_safari.properties");
+        String filePath = ResourceHelper.getRecoursePath("/src/main/resources/config_zalenium.properties");
         try
         {
             file = new FileInputStream(new File(filePath));

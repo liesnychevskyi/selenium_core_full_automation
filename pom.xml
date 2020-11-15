@@ -35,16 +35,16 @@
 <!--                            <name>password</name>-->
 <!--                            <value>${password}</value>-->
 <!--                        </property>-->
-                        <property>
-                            <name>url</name>
-                            <value>${url}</value>
-                        </property>
+<!--                        <property>-->
+<!--                            <name>url</name>-->
+<!--                            <value>${url}</value>-->
+<!--                        </property>-->
                     </systemPropertyVariables>
                     <!--=============================================================== -->
                     <suiteXmlFiles>
                         <!--                        <suiteXmlFiles>.testngSingle.xml</suiteXmlFiles>-->
                         <suiteXmlFiles>src/main/java/selenium_core/test_suite/all_tests.xml</suiteXmlFiles>
-                        <!--                        <suiteXmlFiles>zaleniumtest.xml</suiteXmlFiles>-->
+                        <!--                        <suiteXmlFiles>zaleniumTest.xml</suiteXmlFiles>-->
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

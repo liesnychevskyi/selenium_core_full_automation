@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="zalenium">
+    <listeners>
+<!--        <listener class-name="selenium_core.helpers.listener.RetryListener"></listener>-->
+<!--        <listener class-name="selenium_core.helpers.listener.ExtentListener"></listener>-->
+    </listeners>
+
+    <test thread-count="5" name="LoginTest-chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="selenium_core.test_scripts.example_scripts.ZaleniumParallel"></class>
+        </classes>
+    </test>
+
+    <test thread-count="5" name="LoginTest-firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="selenium_core.test_scripts.example_scripts.ZaleniumParallel"></class>
+        </classes>
+    </test>
+
+</suite>

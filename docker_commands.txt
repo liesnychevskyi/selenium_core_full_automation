@@ -1,0 +1,8 @@
+docker info
+docker version
+docker images - shows you all installed images on Docker
+
+// Start Selenium-Zalenium containers
+docker run --rm -ti --name zalenium -p 4444:4444 -v /var/run/docker.sock:/var/run/docker.sock  -v /c/Users/liesn/temp/videos:/Users/liesn/temp/videos --privileged dosel/zalenium start
+||-->>   /c/Users/liesn/temp/videos:/Users/liesn/temp/videos    <<--|| this part we should to create and put to the current script
+docker stop zalenium - stop (zalenium) image

@@ -19,11 +19,11 @@
         </classes>
     </test>
 
-<!--    <test name="VerifyLowestFirstPriceFilterTest">-->
-<!--        <classes>-->
-<!--            <class name="selenium_core.test_scripts.productDetailsPage.VerifyLowestFirstPriceFilterTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="VerifyLowestFirstPriceFilterTest">
+        <classes>
+            <class name="selenium_core.test_scripts.productDetailsPage.VerifyLowestFirstPriceFilterTest"></class>
+        </classes>
+    </test>
 
     <test name="VerifyLowestFirstPriceFilter">
         <classes>

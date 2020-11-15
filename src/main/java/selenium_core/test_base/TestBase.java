@@ -14,10 +14,7 @@ import org.openqa.selenium.ie.InternetExplorerOptions;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 import org.testng.Reporter;
-import selenium_core.helpers.browser_configurations.BrowserType;
-import selenium_core.helpers.browser_configurations.ChromeBrowser;
-import selenium_core.helpers.browser_configurations.FirefoxBrowser;
-import selenium_core.helpers.browser_configurations.IExplorerBrowser;
+import selenium_core.helpers.browser_configurations.*;
 import selenium_core.helpers.browser_configurations.config.ConfigReader;
 import selenium_core.helpers.browser_configurations.config.ObjectReader;
 import selenium_core.helpers.browser_configurations.config.PropertyReader;
@@ -45,7 +42,7 @@ public class TestBase  // TestNg annotation reporting.html
     public WebDriver driver;
     public static File reportDirectory;
     //----------------------------------------------------------------------------------------------------------------||
-    @BeforeTest
+    //@BeforeTest
     public void beforeTest() throws Exception
     {
         //ConfigReader reader = new PropertyReader();// The same
@@ -56,7 +53,7 @@ public class TestBase  // TestNg annotation reporting.html
         test = extentReports.createTest(getClass().getName());
     }
     //----------------------------------------------------------------------------------------------------------------||
-    @BeforeSuite
+    //@BeforeSuite
     public void beforeSuite() // Getting instance of ExtentManager class
     {
         extentReports = ExtentManager.getInstance();
@@ -68,20 +65,20 @@ public class TestBase  // TestNg annotation reporting.html
     //
     //}
     //----------------------------------------------------------------------------------------------------------------||
-    @AfterClass
+    //@AfterClass
     public void afterClass()
     {
         driverClose();
         driverQuit();
     }
     //----------------------------------------------------------------------------------------------------------------||
-    @BeforeMethod
+    //@BeforeMethod
     public void beforeMethod(Method method)
     {
         test.log(Status.INFO, method.getName() + " test started...(from --> @BeforeMethod)");
     }
     //----------------------------------------------------------------------------------------------------------------||
-    @AfterMethod
+    //@AfterMethod
     public void afterMethod(ITestResult result) throws IOException
     {
         if(result.getStatus() == ITestResult.FAILURE)
@@ -132,6 +129,12 @@ public class TestBase  // TestNg annotation reporting.html
 
                 case Safari:
                     //Get object of Safari class
+
+                case Zalenium_docker:
+                    //Get object of Zalenium_docker class
+                    Zalenium_docker zalenium = new Zalenium_docker(); //Instance of chrome browser class
+                    zalenium.setUp("");
+                    //return chrome.getChromeDriver(options_0);
 
                 default:
                         throw new Exception("Driver not found: " + btype.name());
